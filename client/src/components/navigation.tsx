@@ -25,7 +25,7 @@ export default function Navigation() {
   ];
 
   return (
-    <header className="bg-burgundy text-cream shadow-lg sticky top-0 z-50">
+    <header className="bg-burgundy text-cream shadow-lg sticky top-0 z-50 opacity-100">
       <div className="container mx-auto px-4">
         {/* Top Bar */}
         <div className="flex justify-between items-center py-3 text-sm border-b border-gold/30">
