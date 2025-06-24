@@ -106,12 +106,12 @@ export default function MenuSection() {
           ))}
         </div>
         
-        <div className="text-center mt-12">
+        <div className="text-center mt-16">
           <Button 
             asChild
-            className="bg-burgundy text-cream hover:bg-opacity-90 font-semibold px-8 py-4 text-lg transform hover:scale-105 transition duration-300"
+            className="bg-burgundy text-white px-8 py-4 rounded-lg font-bold text-lg border-2 border-burgundy hover:bg-red-800 hover:shadow-lg transition-all duration-300 transform hover:scale-105"
           >
-            <a href="/menu">View Full Menu</a>
+            <a href="/menu">View Full Menu →</a>
           </Button>
         </div>
       </div>

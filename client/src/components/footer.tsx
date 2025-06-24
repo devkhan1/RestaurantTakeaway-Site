@@ -19,71 +19,60 @@ export default function Footer() {
   return (
     <footer className="bg-burgundy text-cream py-12">
       <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-3 gap-8">
-          <div>
-            <h3 className="text-2xl font-playfair font-bold text-gold mb-4">Naaz Restaurant</h3>
-            <p className="mb-4">
-              Serving authentic Indian cuisine to Doncaster for 15 years with passion and tradition.
-            </p>
-            <div className="flex space-x-4">
-              <a 
-                href="#" 
-                className="text-gold hover:text-light-gold transition duration-300"
-                aria-label="Facebook"
-              >
-                <Facebook className="w-6 h-6" />
-              </a>
-              <a 
-                href="#" 
-                className="text-gold hover:text-light-gold transition duration-300"
-                aria-label="Instagram"
-              >
-                <Instagram className="w-6 h-6" />
-              </a>
-              <a 
-                href="#" 
-                className="text-gold hover:text-light-gold transition duration-300"
-                aria-label="Twitter"
-              >
-                <Twitter className="w-6 h-6" />
-              </a>
+        <div className="grid md:grid-cols-4 gap-8">
+          <div className="bg-burgundy/20 p-6 rounded-lg border border-gold/30">
+            <h3 className="text-xl font-bold text-gold mb-4 border-b border-gold/50 pb-2">Opening Hours</h3>
+            <div className="space-y-3 text-cream">
+              <div className="bg-burgundy/30 p-2 rounded border border-gold/20">
+                <p>Monday - Thursday: 5:00 PM - 11:00 PM</p>
+              </div>
+              <div className="bg-burgundy/30 p-2 rounded border border-gold/20">
+                <p>Friday - Sunday: 5:00 PM - 11:30 PM</p>
+              </div>
+              <div className="bg-gold/20 p-2 rounded border border-gold">
+                <p className="text-gold font-semibold">Closed Tuesdays</p>
+              </div>
             </div>
           </div>
           
-          <div>
-            <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
-            <ul className="space-y-2">
-              {quickLinks.map((link) => (
-                <li key={link.id}>
-                  <button
-                    onClick={() => scrollToSection(link.id)}
-                    className="hover:text-gold transition duration-300 text-left"
-                  >
-                    {link.label}
-                  </button>
-                </li>
-              ))}
+          <div className="bg-burgundy/20 p-6 rounded-lg border border-gold/30">
+            <h3 className="text-xl font-bold text-gold mb-4 border-b border-gold/50 pb-2">Quick Links</h3>
+            <ul className="space-y-3">
+              <li><a href="/" className="text-cream hover:text-gold transition duration-300 block bg-burgundy/30 p-2 rounded border border-gold/20 hover:bg-gold/20 hover:border-gold">Home</a></li>
+              <li><a href="/menu" className="text-cream hover:text-gold transition duration-300 block bg-burgundy/30 p-2 rounded border border-gold/20 hover:bg-gold/20 hover:border-gold">Menu</a></li>
+              <li><button onClick={() => scrollToSection('reservation')} className="text-cream hover:text-gold transition duration-300 block bg-burgundy/30 p-2 rounded border border-gold/20 hover:bg-gold/20 hover:border-gold w-full text-left">Reservations</button></li>
+              <li><button onClick={() => scrollToSection('contact')} className="text-cream hover:text-gold transition duration-300 block bg-burgundy/30 p-2 rounded border border-gold/20 hover:bg-gold/20 hover:border-gold w-full text-left">Contact</button></li>
             </ul>
           </div>
           
-          <div>
-            <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
-            <ul className="space-y-2">
-              <li className="flex items-center">
-                <span className="mr-2">📞</span>
-                <a href="tel:+441302788882" className="hover:text-gold transition duration-300">
-                  01302 788882
-                </a>
-              </li>
-              <li className="flex items-center">
-                <span className="mr-2">📍</span>
-                Baldwin Avenue, Doncaster DN5 9BG
-              </li>
-              <li className="flex items-center">
-                <span className="mr-2">🕒</span>
-                Tue-Sun: 17:30 – 22:30
-              </li>
-            </ul>
+          <div className="bg-burgundy/20 p-6 rounded-lg border border-gold/30">
+            <h3 className="text-xl font-bold text-gold mb-4 border-b border-gold/50 pb-2">Contact Info</h3>
+            <div className="space-y-3 text-cream">
+              <div className="bg-burgundy/30 p-2 rounded border border-gold/20">
+                <p>📞 01302 788882</p>
+              </div>
+              <div className="bg-burgundy/30 p-2 rounded border border-gold/20">
+                <p>📍 Baldwin Avenue, Doncaster DN5 9BG</p>
+              </div>
+              <div className="bg-burgundy/30 p-2 rounded border border-gold/20">
+                <p>✉️ info@naazrestaurant.co.uk</p>
+              </div>
+            </div>
+          </div>
+          
+          <div className="bg-burgundy/20 p-6 rounded-lg border border-gold/30">
+            <div className="bg-gold/20 p-4 rounded-lg border border-gold mb-4">
+              <h3 className="text-xl font-bold text-gold border-b border-gold/50 pb-2 mb-3">Naaz Restaurant</h3>
+              <p className="text-cream mb-4 leading-relaxed">
+                Authentic Indian cuisine served with passion for over 15 years in Doncaster.
+              </p>
+            </div>
+            <button 
+              onClick={() => scrollToSection('reservation')}
+              className="bg-gradient-to-r from-gold to-amber-400 text-burgundy px-6 py-3 rounded-lg font-bold border-2 border-gold hover:from-amber-400 hover:to-gold hover:shadow-lg transition-all duration-300 transform hover:scale-105 w-full"
+            >
+              Book Table
+            </button>
           </div>
         </div>
         
