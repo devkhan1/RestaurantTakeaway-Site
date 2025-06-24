@@ -34,14 +34,14 @@ export default function MenuSection() {
             Each item is separate so you can create your perfect meal combination.
           </p>
           
-          <div className="flex flex-wrap justify-center gap-4 mb-8">
-            <button className="bg-gold text-burgundy px-6 py-3 rounded-full font-semibold text-sm border-2 border-gold hover:bg-amber-400 hover:shadow-lg transition-all duration-300 transform hover:scale-105">
+          <div className="flex flex-wrap justify-center gap-3 md:gap-4 mb-8">
+            <button className="bg-gold text-burgundy px-4 md:px-6 py-2 md:py-3 rounded-full font-semibold text-xs md:text-sm border-2 border-gold hover:bg-amber-400 hover:shadow-lg transition-all duration-300 transform hover:scale-105">
               🔥 Tandoor Specialties
             </button>
-            <button className="bg-green-600 text-white px-6 py-3 rounded-full font-semibold text-sm border-2 border-green-600 hover:bg-green-700 hover:shadow-lg transition-all duration-300 transform hover:scale-105">
+            <button className="bg-green-600 text-white px-4 md:px-6 py-2 md:py-3 rounded-full font-semibold text-xs md:text-sm border-2 border-green-600 hover:bg-green-700 hover:shadow-lg transition-all duration-300 transform hover:scale-105">
               🌱 Vegetarian Options
             </button>
-            <button className="bg-red-600 text-white px-6 py-3 rounded-full font-semibold text-sm border-2 border-red-600 hover:bg-red-700 hover:shadow-lg transition-all duration-300 transform hover:scale-105">
+            <button className="bg-red-600 text-white px-4 md:px-6 py-2 md:py-3 rounded-full font-semibold text-xs md:text-sm border-2 border-red-600 hover:bg-red-700 hover:shadow-lg transition-all duration-300 transform hover:scale-105">
               🌶️ Spice Levels Available
             </button>
           </div>

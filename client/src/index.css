@@ -161,6 +161,45 @@
     .text-responsive {
       font-size: 0.875rem;
     }
+    
+    /* Mobile spacing fixes */
+    .container {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    
+    /* Mobile card adjustments */
+    .mobile-card {
+      margin-bottom: 1rem;
+    }
+    
+    /* Mobile text sizing */
+    .mobile-text-lg {
+      font-size: 1.125rem;
+    }
+    
+    .mobile-text-xl {
+      font-size: 1.25rem;
+    }
+  }
+  
+  /* Tablet responsive */
+  @media (min-width: 641px) and (max-width: 1024px) {
+    .tablet-spacing {
+      padding: 1.5rem;
+    }
+  }
+  
+  /* Remove gaps and improve mobile layout */
+  @media (max-width: 768px) {
+    section {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+    
+    .section-gap {
+      margin-bottom: 0;
+    }
   }
   
   /* Image loading states */
