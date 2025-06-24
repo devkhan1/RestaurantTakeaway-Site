@@ -44,13 +44,19 @@ This is a full-stack restaurant website built for Naaz Restaurant & Takeaway, an
 - `PATCH /api/reservations/:id/status` - Update reservation status
 
 ### Frontend Pages
-- **Home Page**: Single-page application with multiple sections
-  - Hero section with restaurant introduction
-  - About section with chef information
-  - Menu showcase with featured items
-  - Reservation form
-  - Image gallery
-  - Contact information and opening hours
+- **Home Page**: Comprehensive single-page application with multiple sections
+  - Hero section highlighting 2-story venue and York Road location
+  - Special offers banner featuring Christmas deals and B.Y.O policy
+  - About section emphasizing facilities (car park, accessibility, events)
+  - Featured menu items with improved categorization
+  - Reservation form with enhanced validation
+  - Gallery showcasing restaurant spaces and cuisine
+  - Contact information with event hosting details
+- **Menu Page**: Dedicated full menu with filtering by categories
+  - Complete dish catalog with authentic images
+  - Category-based filtering (starters, mains, bread, rice, desserts)
+  - Spice level indicators and dietary badges
+  - Enhanced ordering information and contact options
 
 ### UI Features
 - Responsive design optimized for mobile and desktop
@@ -109,11 +115,21 @@ This is a full-stack restaurant website built for Naaz Restaurant & Takeaway, an
 - **Schema Updates**: `npm run db:push` for schema synchronization
 - **Connection**: Environment variable `DATABASE_URL` required
 
-## Changelog
+## Recent Changes
 
 ```
-Changelog:
-- June 24, 2025. Initial setup
+Recent Updates:
+- June 24, 2025: Comprehensive website redesign and enhancement
+  - Improved header design with better visibility and B.Y.O alcohol highlighting
+  - Enhanced hero section with better text readability and restaurant details
+  - Updated Christmas/seasonal offers banner with festive design
+  - Expanded about section highlighting 2-story venue, car park, accessibility
+  - Complete menu overhaul with better categorization and images
+  - Added dedicated full menu page with filtering capabilities
+  - Enhanced gallery with restaurant-specific images and facility highlights
+  - Improved contact section emphasizing event hosting capabilities
+  - Added navigation between home and menu pages
+  - Better mobile responsiveness and visual hierarchy
 ```
 
 ## User Preferences
