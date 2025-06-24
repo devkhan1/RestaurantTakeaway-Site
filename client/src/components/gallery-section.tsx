@@ -1,47 +1,47 @@
 export default function GallerySection() {
   const galleryImages = [
     {
-      src: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      src: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&auto=format&fit=crop",
       alt: "Naaz Restaurant - Spacious 2-story dining area",
       title: "Main Dining Area"
     },
     {
-      src: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      src: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&auto=format&fit=crop",
       alt: "Family-friendly dining with large tables",
       title: "Family Dining Space"
     },
     {
-      src: "https://images.unsplash.com/photo-1577106263724-2c8e03bfe9cf?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      src: "https://images.unsplash.com/photo-1577106263724-2c8e03bfe9cf?w=600&h=400&auto=format&fit=crop",
       alt: "Our expert chef cooking in the traditional tandoor",
       title: "Tandoor Kitchen"
     },
     {
-      src: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      src: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=600&h=400&auto=format&fit=crop",
       alt: "Fresh spices and ingredients used daily",
       title: "Fresh Spices & Ingredients"
     },
     {
-      src: "https://images.unsplash.com/photo-1601050690597-df0568f70950?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      src: "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600&h=400&auto=format&fit=crop",
       alt: "Freshly baked naan and Indian breads",
       title: "Fresh Baked Breads"
     },
     {
-      src: "https://images.unsplash.com/photo-1505253758473-96b7015fcd40?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      src: "https://images.unsplash.com/photo-1505253758473-96b7015fcd40?w=600&h=400&auto=format&fit=crop",
       alt: "Complete thali meals perfect for families",
       title: "Traditional Thali Meals"
     },
     {
-      src: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      src: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600&h=400&auto=format&fit=crop",
       alt: "Signature curry dishes",
       title: "Signature Curries"
     },
     {
-      src: "https://images.unsplash.com/photo-1563379091068-d4a49fa7d45f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      src: "https://images.unsplash.com/photo-1563379091068-d4a49fa7d45f?w=600&h=400&auto=format&fit=crop",
       alt: "Aromatic biryani dishes",
       title: "Aromatic Biryanis"
     },
     {
-      src: "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      src: "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=600&h=400&auto=format&fit=crop",
       alt: "Tandoori specialties grilled to perfection",
       title: "Tandoori Specialties"
     }

@@ -82,6 +82,64 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Customer Reviews Section */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl lg:text-5xl font-playfair font-bold text-burgundy mb-4">
+              What Our <span className="text-gold">Customers</span> Say
+            </h2>
+            <p className="text-xl text-warm-brown max-w-2xl mx-auto">
+              15 years of serving Doncaster with authentic Indian cuisine and exceptional service
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="bg-cream p-6 rounded-lg shadow-lg">
+              <div className="flex mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-gold text-xl">⭐</span>
+                ))}
+              </div>
+              <p className="text-warm-brown mb-4 italic">
+                "Absolutely fantastic food! We've been coming here for years and the quality never disappoints. 
+                The lamb biryani is exceptional and the staff are always welcoming."
+              </p>
+              <div className="font-semibold text-burgundy">- Sarah M.</div>
+              <div className="text-sm text-warm-brown">Regular Customer</div>
+            </div>
+            
+            <div className="bg-cream p-6 rounded-lg shadow-lg">
+              <div className="flex mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-gold text-xl">⭐</span>
+                ))}
+              </div>
+              <p className="text-warm-brown mb-4 italic">
+                "Perfect venue for our family celebration! The upstairs private dining area was ideal for our group of 20. 
+                Excellent service and the B.Y.O policy made it very affordable."
+              </p>
+              <div className="font-semibold text-burgundy">- David P.</div>
+              <div className="text-sm text-warm-brown">Family Event</div>
+            </div>
+            
+            <div className="bg-cream p-6 rounded-lg shadow-lg">
+              <div className="flex mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-gold text-xl">⭐</span>
+                ))}
+              </div>
+              <p className="text-warm-brown mb-4 italic">
+                "Great location with easy parking on York Road. The tandoori dishes are amazing and 
+                the vegetarian options are extensive. Highly recommend!"
+              </p>
+              <div className="font-semibold text-burgundy">- Priya K.</div>
+              <div className="text-sm text-warm-brown">Local Resident</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <ContactSection />
       <Footer />
     </div>

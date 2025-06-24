@@ -115,7 +115,7 @@ export default function Navigation() {
                 <Menu className="h-6 w-6" />
               </Button>
             </SheetTrigger>
-            <SheetContent side="right" className="bg-burgundy text-cream">
+            <SheetContent side="right" className="bg-black text-white">
               <div className="flex flex-col space-y-4 mt-8">
                 {navItems.map((item) => 
                   item.isLink ? (
