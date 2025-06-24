@@ -19,7 +19,7 @@ export default function Footer() {
   return (
     <footer className="bg-burgundy text-cream py-8 md:py-12">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+        <div className="grid mobile-stack sm:grid-cols-2 lg:grid-cols-4 responsive-gap">
           <div className="bg-burgundy/20 p-4 md:p-6 rounded-lg border border-gold/30">
             <h3 className="text-lg md:text-xl font-bold text-gold mb-3 md:mb-4 border-b border-gold/50 pb-2">Opening Hours</h3>
             <div className="space-y-3 text-cream">

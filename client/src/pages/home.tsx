@@ -47,19 +47,19 @@ export default function Home() {
       {/* Customer Reviews Section */}
       <section className="py-12 md:py-20 bg-white">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-12 md:mb-16">
-            <div className="bg-blue-600 text-white inline-block px-6 md:px-8 py-3 md:py-4 rounded-lg shadow-lg mb-6 border-2 border-blue-800">
-              <h2 className="text-2xl md:text-4xl lg:text-5xl font-playfair font-bold mb-2">
+          <div className="text-center mb-8 md:mb-12 lg:mb-16">
+            <div className="bg-blue-600 text-white inline-block responsive-px responsive-py rounded-lg shadow-lg mb-6 border-2 border-blue-800">
+              <h2 className="fluid-text-2xl md:fluid-text-3xl lg:fluid-text-4xl font-playfair font-bold mb-2">
                 Verified <span className="text-yellow-300">Customer Reviews</span>
               </h2>
-              <p className="text-sm md:text-xl text-blue-100">
+              <p className="fluid-text-sm md:fluid-text-lg text-blue-100">
                 15 years of serving Doncaster with authentic Indian cuisine - verified reviews from multiple platforms
               </p>
             </div>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
-            <div className="bg-gradient-to-br from-green-50 to-white p-6 md:p-8 rounded-xl shadow-xl border-2 border-green-200 hover:shadow-2xl hover:scale-105 transition-all duration-300 transform cursor-default">
+          <div className="grid mobile-stack tablet-grid md:grid-cols-3 responsive-gap">
+            <div className="bg-gradient-to-br from-green-50 to-white responsive-px responsive-py rounded-xl shadow-xl border-2 border-green-200 hover:shadow-2xl hover:scale-105 transition-all duration-300 transform cursor-default">
               <div className="flex items-center mb-6 cursor-default">
                 <div className="flex mr-3 cursor-default">
                   {[...Array(5)].map((_, i) => (
@@ -77,7 +77,7 @@ export default function Home() {
               <div className="text-sm text-green-600 bg-green-100 px-3 py-1 rounded-full inline-block cursor-default">✓ Verified Trustpilot Review</div>
             </div>
             
-            <div className="bg-gradient-to-br from-blue-50 to-white p-6 md:p-8 rounded-xl shadow-xl border-2 border-blue-200 hover:shadow-2xl hover:scale-105 transition-all duration-300 transform cursor-default">
+            <div className="bg-gradient-to-br from-blue-50 to-white responsive-px responsive-py rounded-xl shadow-xl border-2 border-blue-200 hover:shadow-2xl hover:scale-105 transition-all duration-300 transform cursor-default">
               <div className="flex items-center mb-6 cursor-default">
                 <div className="flex mr-3 cursor-default">
                   {[...Array(5)].map((_, i) => (
@@ -95,7 +95,7 @@ export default function Home() {
               <div className="text-sm text-blue-600 bg-blue-100 px-3 py-1 rounded-full inline-block cursor-default">✓ Verified Google Review</div>
             </div>
             
-            <div className="bg-gradient-to-br from-red-50 to-white p-6 md:p-8 rounded-xl shadow-xl border-2 border-red-200 hover:shadow-2xl hover:scale-105 transition-all duration-300 transform cursor-default">
+            <div className="bg-gradient-to-br from-red-50 to-white responsive-px responsive-py rounded-xl shadow-xl border-2 border-red-200 hover:shadow-2xl hover:scale-105 transition-all duration-300 transform cursor-default">
               <div className="flex items-center mb-6 cursor-default">
                 <div className="flex mr-3 cursor-default">
                   {[...Array(5)].map((_, i) => (
