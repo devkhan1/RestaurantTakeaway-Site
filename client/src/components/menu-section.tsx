@@ -35,7 +35,7 @@ export default function MenuSection() {
           </p>
           
           <div className="flex flex-wrap justify-center gap-3 md:gap-4 mb-8">
-            <button className="bg-gold text-burgundy px-4 md:px-6 py-2 md:py-3 rounded-full font-semibold text-xs md:text-sm border-2 border-gold hover:bg-amber-400 hover:shadow-lg transition-all duration-300 transform hover:scale-105">
+            <button className="bg-red-600 text-white px-4 md:px-6 py-2 md:py-3 rounded-full font-semibold text-xs md:text-sm border-2 border-red-600 hover:bg-red-700 hover:shadow-lg transition-all duration-300 transform hover:scale-105">
               🔥 Tandoor Specialties
             </button>
             <button className="bg-green-600 text-white px-4 md:px-6 py-2 md:py-3 rounded-full font-semibold text-xs md:text-sm border-2 border-green-600 hover:bg-green-700 hover:shadow-lg transition-all duration-300 transform hover:scale-105">
@@ -109,7 +109,7 @@ export default function MenuSection() {
         <div className="text-center mt-16">
           <Button 
             asChild
-            className="bg-burgundy text-white px-8 py-4 rounded-lg font-bold text-lg border-2 border-burgundy hover:bg-red-800 hover:shadow-lg transition-all duration-300 transform hover:scale-105"
+            className="bg-green-600 text-white px-8 py-4 rounded-lg font-bold text-lg border-2 border-green-600 hover:bg-green-700 hover:shadow-lg transition-all duration-300 transform hover:scale-105"
           >
             <a href="/menu">View Full Menu →</a>
           </Button>
