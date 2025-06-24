@@ -98,58 +98,58 @@ export default function Home() {
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-gradient-to-br from-green-50 to-white p-8 rounded-xl shadow-xl border-2 border-green-200 hover:shadow-2xl hover:scale-105 transition-all duration-300 transform">
-              <div className="flex items-center mb-6">
-                <div className="flex mr-3">
+            <div className="bg-gradient-to-br from-green-50 to-white p-8 rounded-xl shadow-xl border-2 border-green-200 hover:shadow-2xl hover:scale-105 transition-all duration-300 transform cursor-default">
+              <div className="flex items-center mb-6 cursor-default">
+                <div className="flex mr-3 cursor-default">
                   {[...Array(5)].map((_, i) => (
-                    <span key={i} className="text-green-500 text-xl">★</span>
+                    <span key={i} className="text-green-500 text-xl cursor-default">★</span>
                   ))}
                 </div>
-                <span className="text-sm text-gray-600 bg-green-100 px-2 py-1 rounded">5 days ago</span>
+                <span className="text-sm text-gray-600 bg-green-100 px-2 py-1 rounded cursor-default">5 days ago</span>
               </div>
-              <h4 className="font-bold text-burgundy mb-3 text-lg border-b border-green-200 pb-2">Outstanding food and service</h4>
-              <p className="text-warm-brown mb-6 italic leading-relaxed">
+              <h4 className="font-bold text-burgundy mb-3 text-lg border-b border-green-200 pb-2 cursor-default">Outstanding food and service</h4>
+              <p className="text-warm-brown mb-6 italic leading-relaxed cursor-default">
                 "Absolutely fantastic food! We've been coming here for years and the quality never disappoints. 
                 The lamb biryani is exceptional and the staff are always welcoming. Great value for money."
               </p>
-              <div className="font-semibold text-burgundy mb-2">Sarah Mitchell</div>
-              <div className="text-sm text-green-600 bg-green-100 px-3 py-1 rounded-full inline-block">✓ Verified Trustpilot Review</div>
+              <div className="font-semibold text-burgundy mb-2 cursor-default">Sarah Mitchell</div>
+              <div className="text-sm text-green-600 bg-green-100 px-3 py-1 rounded-full inline-block cursor-default">✓ Verified Trustpilot Review</div>
             </div>
             
-            <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl shadow-xl border-2 border-blue-200 hover:shadow-2xl hover:scale-105 transition-all duration-300 transform">
-              <div className="flex items-center mb-6">
-                <div className="flex mr-3">
+            <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl shadow-xl border-2 border-blue-200 hover:shadow-2xl hover:scale-105 transition-all duration-300 transform cursor-default">
+              <div className="flex items-center mb-6 cursor-default">
+                <div className="flex mr-3 cursor-default">
                   {[...Array(5)].map((_, i) => (
-                    <span key={i} className="text-blue-500 text-xl">★</span>
+                    <span key={i} className="text-blue-500 text-xl cursor-default">★</span>
                   ))}
                 </div>
-                <span className="text-sm text-gray-600 bg-blue-100 px-2 py-1 rounded">1 week ago</span>
+                <span className="text-sm text-gray-600 bg-blue-100 px-2 py-1 rounded cursor-default">1 week ago</span>
               </div>
-              <h4 className="font-bold text-burgundy mb-3 text-lg border-b border-blue-200 pb-2">Perfect for large groups</h4>
-              <p className="text-warm-brown mb-6 italic leading-relaxed">
+              <h4 className="font-bold text-burgundy mb-3 text-lg border-b border-blue-200 pb-2 cursor-default">Perfect for large groups</h4>
+              <p className="text-warm-brown mb-6 italic leading-relaxed cursor-default">
                 "Perfect venue for our family celebration! The upstairs private dining area was ideal for our group of 20. 
                 Excellent service and the B.Y.O policy made it very affordable. Will definitely return!"
               </p>
-              <div className="font-semibold text-burgundy mb-2">David Patterson</div>
-              <div className="text-sm text-blue-600 bg-blue-100 px-3 py-1 rounded-full inline-block">✓ Verified Google Review</div>
+              <div className="font-semibold text-burgundy mb-2 cursor-default">David Patterson</div>
+              <div className="text-sm text-blue-600 bg-blue-100 px-3 py-1 rounded-full inline-block cursor-default">✓ Verified Google Review</div>
             </div>
             
-            <div className="bg-gradient-to-br from-red-50 to-white p-8 rounded-xl shadow-xl border-2 border-red-200 hover:shadow-2xl hover:scale-105 transition-all duration-300 transform">
-              <div className="flex items-center mb-6">
-                <div className="flex mr-3">
+            <div className="bg-gradient-to-br from-red-50 to-white p-8 rounded-xl shadow-xl border-2 border-red-200 hover:shadow-2xl hover:scale-105 transition-all duration-300 transform cursor-default">
+              <div className="flex items-center mb-6 cursor-default">
+                <div className="flex mr-3 cursor-default">
                   {[...Array(5)].map((_, i) => (
-                    <span key={i} className="text-burgundy text-xl">★</span>
+                    <span key={i} className="text-burgundy text-xl cursor-default">★</span>
                   ))}
                 </div>
-                <span className="text-sm text-gray-600 bg-red-100 px-2 py-1 rounded">2 weeks ago</span>
+                <span className="text-sm text-gray-600 bg-red-100 px-2 py-1 rounded cursor-default">2 weeks ago</span>
               </div>
-              <h4 className="font-bold text-burgundy mb-3 text-lg border-b border-red-200 pb-2">Excellent location and food</h4>
-              <p className="text-warm-brown mb-6 italic leading-relaxed">
+              <h4 className="font-bold text-burgundy mb-3 text-lg border-b border-red-200 pb-2 cursor-default">Excellent location and food</h4>
+              <p className="text-warm-brown mb-6 italic leading-relaxed cursor-default">
                 "Great location with easy parking on York Road. The tandoori dishes are amazing and 
                 the vegetarian options are extensive. Authentic flavors and generous portions. Highly recommend!"
               </p>
-              <div className="font-semibold text-burgundy mb-2">Priya Kumar</div>
-              <div className="text-sm text-burgundy bg-red-100 px-3 py-1 rounded-full inline-block">✓ Verified Website Review</div>
+              <div className="font-semibold text-burgundy mb-2 cursor-default">Priya Kumar</div>
+              <div className="text-sm text-burgundy bg-red-100 px-3 py-1 rounded-full inline-block cursor-default">✓ Verified Website Review</div>
             </div>
           </div>
           

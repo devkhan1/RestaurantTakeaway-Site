@@ -23,14 +23,14 @@ export default function Footer() {
           <div className="bg-burgundy/20 p-6 rounded-lg border border-gold/30">
             <h3 className="text-xl font-bold text-gold mb-4 border-b border-gold/50 pb-2">Opening Hours</h3>
             <div className="space-y-3 text-cream">
-              <div className="bg-burgundy/30 p-2 rounded border border-gold/20">
-                <p>Monday - Thursday: 5:00 PM - 11:00 PM</p>
+              <div className="bg-burgundy/30 p-2 rounded border border-gold/20 cursor-default">
+                <p className="cursor-default">Monday - Thursday: 5:00 PM - 11:00 PM</p>
               </div>
-              <div className="bg-burgundy/30 p-2 rounded border border-gold/20">
-                <p>Friday - Sunday: 5:00 PM - 11:30 PM</p>
+              <div className="bg-burgundy/30 p-2 rounded border border-gold/20 cursor-default">
+                <p className="cursor-default">Friday - Sunday: 5:00 PM - 11:30 PM</p>
               </div>
-              <div className="bg-gold/20 p-2 rounded border border-gold">
-                <p className="text-gold font-semibold">Closed Tuesdays</p>
+              <div className="bg-gold/20 p-2 rounded border border-gold cursor-default">
+                <p className="text-gold font-semibold cursor-default">Closed Tuesdays</p>
               </div>
             </div>
           </div>
@@ -48,22 +48,22 @@ export default function Footer() {
           <div className="bg-burgundy/20 p-6 rounded-lg border border-gold/30">
             <h3 className="text-xl font-bold text-gold mb-4 border-b border-gold/50 pb-2">Contact Info</h3>
             <div className="space-y-3 text-cream">
-              <div className="bg-burgundy/30 p-2 rounded border border-gold/20">
-                <p>📞 01302 788882</p>
+              <div className="bg-burgundy/30 p-2 rounded border border-gold/20 cursor-default">
+                <p className="cursor-default">📞 01302 788882</p>
               </div>
-              <div className="bg-burgundy/30 p-2 rounded border border-gold/20">
-                <p>📍 Baldwin Avenue, Doncaster DN5 9BG</p>
+              <div className="bg-burgundy/30 p-2 rounded border border-gold/20 cursor-default">
+                <p className="cursor-default">📍 Baldwin Avenue, Doncaster DN5 9BG</p>
               </div>
-              <div className="bg-burgundy/30 p-2 rounded border border-gold/20">
-                <p>✉️ info@naazrestaurant.co.uk</p>
+              <div className="bg-burgundy/30 p-2 rounded border border-gold/20 cursor-default">
+                <p className="cursor-default">✉️ info@naazrestaurant.co.uk</p>
               </div>
             </div>
           </div>
           
           <div className="bg-burgundy/20 p-6 rounded-lg border border-gold/30">
-            <div className="bg-gold/20 p-4 rounded-lg border border-gold mb-4">
-              <h3 className="text-xl font-bold text-gold border-b border-gold/50 pb-2 mb-3">Naaz Restaurant</h3>
-              <p className="text-cream mb-4 leading-relaxed">
+            <div className="bg-gold/20 p-4 rounded-lg border border-gold mb-4 cursor-default">
+              <h3 className="text-xl font-bold text-gold border-b border-gold/50 pb-2 mb-3 cursor-default">Naaz Restaurant</h3>
+              <p className="text-cream mb-4 leading-relaxed cursor-default">
                 Authentic Indian cuisine served with passion for over 15 years in Doncaster.
               </p>
             </div>
