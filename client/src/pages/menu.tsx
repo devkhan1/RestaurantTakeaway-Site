@@ -147,9 +147,9 @@ export default function MenuPage() {
                     <span className="text-2xl font-bold text-gold">£{item.price}</span>
                     <Button 
                       asChild
-                      className="bg-burgundy text-cream hover:bg-opacity-90 font-semibold"
+                      className="bg-gold text-burgundy hover:bg-amber-400 font-bold border-2 border-burgundy"
                     >
-                      <a href="tel:+441302788882">Order Now</a>
+                      <a href="tel:+441302788882">📞 Order Now</a>
                     </Button>
                   </div>
                 </CardContent>

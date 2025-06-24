@@ -96,9 +96,9 @@ export default function MenuSection() {
                   <span className="text-2xl font-bold text-gold">£{item.price}</span>
                   <Button 
                     asChild
-                    className="bg-gold text-burgundy hover:bg-light-gold font-semibold"
+                    className="bg-burgundy text-white hover:bg-red-800 font-semibold border-2 border-gold"
                   >
-                    <a href="tel:+441302788882">Order Now</a>
+                    <a href="tel:+441302788882">📞 Order Now</a>
                   </Button>
                 </div>
               </CardContent>

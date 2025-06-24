@@ -175,6 +175,18 @@
   img[loading="lazy"].loaded {
     opacity: 1;
   }
+  
+  /* Button fix for visibility */
+  .btn-order {
+    background-color: hsl(var(--burgundy)) !important;
+    color: white !important;
+    border: 2px solid hsl(var(--gold)) !important;
+  }
+  
+  .btn-order:hover {
+    background-color: hsl(0, 84%, 20%) !important;
+    color: white !important;
+  }
 }
 
 
