@@ -9,15 +9,25 @@ export default function AboutSection() {
             </h2>
             <div className="text-lg leading-relaxed space-y-4">
               <p>
-                We are proud to be serving the people of <strong>Doncaster</strong> and wider for <strong>15 years</strong>. Why not treat yourself to an evening out in the fabulous tastefully designed Naaz Restaurant.
+                We are proud to be serving the people of <strong>Doncaster</strong> for <strong>15 years</strong> from our spacious <strong>2-story restaurant</strong> on the main York Road. With ample parking and wheelchair accessibility, we welcome families, large groups, and special celebrations.
               </p>
               
-              <p>
-                Managing the Home and coping with the demands of cooking are difficult enough, so why not give yourself a rest and a treat.
-              </p>
+              <div className="bg-gradient-to-r from-gold/20 to-amber-100 p-6 rounded-lg border-l-4 border-gold">
+                <h4 className="font-bold text-burgundy mb-3">Our Facilities Include:</h4>
+                <ul className="grid md:grid-cols-2 gap-2 text-warm-brown">
+                  <li>✓ Large car park on York Road</li>
+                  <li>✓ Wheelchair accessible entrance</li>
+                  <li>✓ Family-friendly dining areas</li>
+                  <li>✓ Large tables for group bookings</li>
+                  <li>✓ Children's high chairs available</li>
+                  <li>✓ B.Y.O alcohol policy</li>
+                  <li>✓ Private party room upstairs</li>
+                  <li>✓ Professional waiting staff</li>
+                </ul>
+              </div>
               
               <p>
-                Nearly every Restaurant & Takeaway whether they serve Eastern, Oriental or European dishes will claim that their food is the finest in the area. We do not feel that we are qualified to make such a claim but the fact that our Customers come back again and again is, we feel, proof enough.
+                Located conveniently on the main York Road with shops, amenities, and transport links nearby. Our experienced team provides attentive service whether you're dining for two or celebrating with a large group.
               </p>
               
               <div className="bg-cream p-6 rounded-lg border-l-4 border-gold mt-6">

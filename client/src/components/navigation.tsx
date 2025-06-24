@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, Phone, MapPin } from "lucide-react";
@@ -15,12 +16,12 @@ export default function Navigation() {
   };
 
   const navItems = [
-    { label: "Home", id: "home" },
-    { label: "About", id: "about" },
-    { label: "Menu", id: "menu" },
-    { label: "Reservations", id: "reservation" },
-    { label: "Gallery", id: "gallery" },
-    { label: "Contact", id: "contact" },
+    { label: "Home", id: "home", isLink: false },
+    { label: "About", id: "about", isLink: false },
+    { label: "Menu", id: "menu", isLink: true, href: "/menu" },
+    { label: "Reservations", id: "reservation", isLink: false },
+    { label: "Gallery", id: "gallery", isLink: false },
+    { label: "Contact", id: "contact", isLink: false },
   ];
 
   return (
@@ -57,15 +58,25 @@ export default function Navigation() {
           
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-8">
-            {navItems.map((item) => (
-              <button
-                key={item.id}
-                onClick={() => scrollToSection(item.id)}
-                className="hover:text-gold transition duration-300"
-              >
-                {item.label}
-              </button>
-            ))}
+            {navItems.map((item) => 
+              item.isLink ? (
+                <Link
+                  key={item.id}
+                  href={item.href!}
+                  className="hover:text-gold transition duration-300"
+                >
+                  {item.label}
+                </Link>
+              ) : (
+                <button
+                  key={item.id}
+                  onClick={() => scrollToSection(item.id)}
+                  className="hover:text-gold transition duration-300"
+                >
+                  {item.label}
+                </button>
+              )
+            )}
           </div>
           
           <div className="flex items-center space-x-4">
@@ -92,15 +103,26 @@ export default function Navigation() {
             </SheetTrigger>
             <SheetContent side="right" className="bg-burgundy text-cream">
               <div className="flex flex-col space-y-4 mt-8">
-                {navItems.map((item) => (
-                  <button
-                    key={item.id}
-                    onClick={() => scrollToSection(item.id)}
-                    className="text-left py-2 hover:text-gold transition duration-300"
-                  >
-                    {item.label}
-                  </button>
-                ))}
+                {navItems.map((item) => 
+                  item.isLink ? (
+                    <Link
+                      key={item.id}
+                      href={item.href!}
+                      className="text-left py-2 hover:text-gold transition duration-300"
+                      onClick={() => setIsOpen(false)}
+                    >
+                      {item.label}
+                    </Link>
+                  ) : (
+                    <button
+                      key={item.id}
+                      onClick={() => scrollToSection(item.id)}
+                      className="text-left py-2 hover:text-gold transition duration-300"
+                    >
+                      {item.label}
+                    </button>
+                  )
+                )}
               </div>
             </SheetContent>
           </Sheet>

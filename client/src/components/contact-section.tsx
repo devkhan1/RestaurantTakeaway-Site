@@ -85,8 +85,20 @@ export default function ContactSection() {
                 <div className="flex items-start space-x-4">
                   <Wine className="text-gold text-xl mt-1" />
                   <div>
-                    <h4 className="font-semibold text-burgundy">Special</h4>
-                    <p className="text-warm-brown">B.Y.O (Bring Your Own)</p>
+                    <h4 className="font-semibold text-burgundy">B.Y.O Alcohol Welcome</h4>
+                    <p className="text-warm-brown">Bring your own drinks - no corkage charge!</p>
+                  </div>
+                </div>
+                
+                <div className="bg-gold/10 p-4 rounded-lg">
+                  <h4 className="font-bold text-burgundy mb-2">Perfect for Events:</h4>
+                  <div className="grid grid-cols-2 gap-2 text-sm text-warm-brown">
+                    <div>• Birthday Parties</div>
+                    <div>• Family Gatherings</div>
+                    <div>• Corporate Events</div>
+                    <div>• Anniversary Dinners</div>
+                    <div>• Large Group Bookings</div>
+                    <div>• Private Functions</div>
                   </div>
                 </div>
               </div>

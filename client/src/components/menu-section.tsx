@@ -27,11 +27,24 @@ export default function MenuSection() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-playfair font-bold text-burgundy mb-4">
-            Our <span className="text-gold">Signature</span> Dishes
+            Our <span className="text-gold">Popular</span> Menu
           </h2>
-          <p className="text-xl text-warm-brown max-w-2xl mx-auto">
-            Every dish is a separate item because everyone has different tastes and needs. Choose your own accompanying dish for the perfect meal.
+          <p className="text-xl text-warm-brown max-w-3xl mx-auto mb-8">
+            Every dish is prepared fresh to order with authentic spices and traditional cooking methods. 
+            Each item is separate so you can create your perfect meal combination.
           </p>
+          
+          <div className="flex flex-wrap justify-center gap-4 mb-8">
+            <span className="bg-gold text-burgundy px-4 py-2 rounded-full font-semibold text-sm">
+              🔥 Tandoor Specialties
+            </span>
+            <span className="bg-green-600 text-white px-4 py-2 rounded-full font-semibold text-sm">
+              🌱 Vegetarian Options
+            </span>
+            <span className="bg-red-600 text-white px-4 py-2 rounded-full font-semibold text-sm">
+              🌶️ Spice Levels Available
+            </span>
+          </div>
         </div>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -91,8 +104,11 @@ export default function MenuSection() {
         </div>
         
         <div className="text-center mt-12">
-          <Button className="bg-burgundy text-cream hover:bg-opacity-90 font-semibold px-8 py-4 text-lg transform hover:scale-105 transition duration-300">
-            View Full Menu
+          <Button 
+            asChild
+            className="bg-burgundy text-cream hover:bg-opacity-90 font-semibold px-8 py-4 text-lg transform hover:scale-105 transition duration-300"
+          >
+            <a href="/menu">View Full Menu</a>
           </Button>
         </div>
       </div>

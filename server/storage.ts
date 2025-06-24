@@ -32,6 +32,38 @@ export class MemStorage implements IStorage {
 
   private initializeMenuItems() {
     const items: InsertMenuItem[] = [
+      // Starters
+      {
+        name: "Chicken Samosa",
+        description: "Crispy pastry filled with spiced chicken and vegetables",
+        price: "5.95",
+        category: "starters",
+        image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+        spiceLevel: 2,
+        isVegetarian: false,
+        isPopular: true
+      },
+      {
+        name: "Onion Bhaji",
+        description: "Deep-fried onion fritters with Indian spices and herbs",
+        price: "4.95",
+        category: "starters",
+        image: "https://images.unsplash.com/photo-1626132647523-66e7ad32ac95?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+        spiceLevel: 2,
+        isVegetarian: true,
+        isVegan: true,
+        isPopular: true
+      },
+      {
+        name: "Seekh Kebab",
+        description: "Spiced minced lamb grilled on skewers in our tandoor",
+        price: "6.95",
+        category: "starters",
+        image: "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+        spiceLevel: 3,
+        isVegetarian: false
+      },
+      // Mains
       {
         name: "Chicken Tikka Masala",
         description: "Tender chicken pieces in a rich, creamy tomato-based sauce with aromatic spices",
@@ -45,9 +77,9 @@ export class MemStorage implements IStorage {
       {
         name: "Lamb Biryani",
         description: "Fragrant basmati rice layered with tender lamb and traditional spices",
-        price: "14.95",
+        price: "15.95",
         category: "mains",
-        image: "https://images.unsplash.com/photo-1563379091068-e82c312788cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+        image: "https://images.unsplash.com/photo-1563379091068-d4a49fa7d45f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
         spiceLevel: 3,
         isVegetarian: false,
         isPopular: true
@@ -57,7 +89,7 @@ export class MemStorage implements IStorage {
         description: "Fresh seasonal vegetables cooked in authentic Indian spices and herbs",
         price: "9.95",
         category: "mains",
-        image: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+        image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
         spiceLevel: 2,
         isVegetarian: true,
         isVegan: true,
@@ -73,40 +105,62 @@ export class MemStorage implements IStorage {
         isVegetarian: false
       },
       {
+        name: "Butter Chicken",
+        description: "Creamy tomato curry with tender chicken pieces, mild and flavorful",
+        price: "13.95",
+        category: "mains",
+        image: "https://images.unsplash.com/photo-1631452180539-96aca7d48617?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+        spiceLevel: 1,
+        isVegetarian: false,
+        isPopular: true
+      },
+      // Bread & Rice
+      {
         name: "Garlic Naan",
         description: "Freshly baked bread with garlic, herbs and butter from our tandoor oven",
         price: "3.50",
         category: "bread",
         image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
         spiceLevel: 1,
+        isVegetarian: true,
+        isPopular: true
+      },
+      {
+        name: "Peshwari Naan",
+        description: "Sweet naan stuffed with coconut, almonds and sultanas",
+        price: "4.50",
+        category: "bread",
+        image: "https://images.unsplash.com/photo-1505253758473-96b7015fcd40?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+        spiceLevel: 0,
         isVegetarian: true
       },
+      {
+        name: "Pilau Rice",
+        description: "Fragrant basmati rice cooked with whole spices",
+        price: "3.95",
+        category: "rice",
+        image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+        spiceLevel: 1,
+        isVegetarian: true,
+        isVegan: true
+      },
+      // Desserts
       {
         name: "Gulab Jamun",
         description: "Traditional Indian dessert in sweet syrup, served warm",
         price: "4.95",
         category: "desserts",
         image: "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
-        isVegetarian: true
-      },
-      {
-        name: "Chicken Samosa",
-        description: "Crispy pastry filled with spiced chicken and vegetables",
-        price: "6.95",
-        category: "starters",
-        image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
-        spiceLevel: 2,
-        isVegetarian: false
-      },
-      {
-        name: "Onion Bhaji",
-        description: "Deep-fried onion fritters with Indian spices and herbs",
-        price: "5.95",
-        category: "starters",
-        image: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
-        spiceLevel: 2,
         isVegetarian: true,
-        isVegan: true
+        isPopular: true
+      },
+      {
+        name: "Kulfi",
+        description: "Traditional Indian ice cream with cardamom and pistachios",
+        price: "4.50",
+        category: "desserts",
+        image: "https://images.unsplash.com/photo-1488900128323-21503983a07e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+        isVegetarian: true
       }
     ];
 
