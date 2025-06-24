@@ -101,8 +101,7 @@ export default function Navigation() {
             </Button>
             <Button
               asChild
-              variant="outline"
-              className="border-gold text-gold hover:bg-gold hover:text-burgundy font-semibold"
+              className="bg-gold text-burgundy hover:bg-amber-400 font-bold border-2 border-burgundy px-4 py-2"
             >
               <a href="tel:+441302788882">📞 ORDER NOW</a>
             </Button>
@@ -115,14 +114,14 @@ export default function Navigation() {
                 <Menu className="h-6 w-6" />
               </Button>
             </SheetTrigger>
-            <SheetContent side="right" className="bg-black text-white">
-              <div className="flex flex-col space-y-4 mt-8">
+            <SheetContent side="right" className="bg-black text-white w-80">
+              <div className="flex flex-col space-y-6 mt-8 p-4">
                 {navItems.map((item) => 
                   item.isLink ? (
                     <Link
                       key={item.id}
                       href={item.href!}
-                      className="text-left py-2 hover:text-gold transition duration-300 cursor-pointer"
+                      className="text-left py-3 px-4 text-lg hover:text-gold hover:bg-gold/10 transition duration-300 cursor-pointer rounded-lg border border-gold/20"
                       onClick={() => setIsOpen(false)}
                     >
                       {item.label}
@@ -131,7 +130,7 @@ export default function Navigation() {
                     <button
                       key={item.id}
                       onClick={() => scrollToSection(item.id)}
-                      className="text-left py-2 hover:text-gold transition duration-300 cursor-pointer"
+                      className="text-left py-3 px-4 text-lg hover:text-gold hover:bg-gold/10 transition duration-300 cursor-pointer rounded-lg border border-gold/20"
                     >
                       {item.label}
                     </button>

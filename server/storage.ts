@@ -59,7 +59,7 @@ export class MemStorage implements IStorage {
         description: "Spiced minced lamb grilled on skewers in our tandoor",
         price: "6.95",
         category: "starters",
-        image: "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+        image: "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=600&h=300&auto=format&fit=crop",
         spiceLevel: 3,
         isVegetarian: false
       },
@@ -79,7 +79,7 @@ export class MemStorage implements IStorage {
         description: "Fragrant basmati rice layered with tender lamb and traditional spices",
         price: "15.95",
         category: "mains",
-        image: "https://images.unsplash.com/photo-1563379091068-d4a49fa7d45f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+        image: "https://images.unsplash.com/photo-1563379091068-d4a49fa7d45f?w=600&h=300&auto=format&fit=crop",
         spiceLevel: 3,
         isVegetarian: false,
         isPopular: true
@@ -100,7 +100,7 @@ export class MemStorage implements IStorage {
         description: "Marinated chicken grilled to perfection in our traditional tandoor oven",
         price: "11.95",
         category: "mains",
-        image: "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+        image: "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=600&h=300&auto=format&fit=crop",
         spiceLevel: 3,
         isVegetarian: false
       },
@@ -167,7 +167,7 @@ export class MemStorage implements IStorage {
         description: "Perfectly spiced chicken layered with saffron rice and aromatic herbs",
         price: "13.95",
         category: "mains",
-        image: "https://images.unsplash.com/photo-1563379091068-d4a49fa7d45f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+        image: "https://images.unsplash.com/photo-1631452180539-96aca7d48617?w=600&h=300&auto=format&fit=crop",
         spiceLevel: 3,
         isVegetarian: false,
         isPopular: true
