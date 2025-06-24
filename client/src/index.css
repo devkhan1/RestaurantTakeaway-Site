@@ -144,16 +144,36 @@
   }
   
   .header-solid {
-    background-color: hsl(var(--burgundy)) !important;
+    background-color: rgba(0, 0, 0, 0.98) !important;
     opacity: 1 !important;
-    backdrop-filter: none !important;
+    backdrop-filter: blur(20px) !important;
   }
   
   .header-fixed {
-    background: rgba(139, 0, 0, 0.98) !important;
+    background: rgba(0, 0, 0, 0.98) !important;
     backdrop-filter: blur(20px) !important;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5) !important;
     border-bottom: 2px solid hsl(var(--gold)) !important;
+  }
+  
+  /* Responsive design utilities */
+  @media (max-width: 640px) {
+    .text-responsive {
+      font-size: 0.875rem;
+    }
+  }
+  
+  /* Image loading states */
+  img {
+    transition: opacity 0.3s ease;
+  }
+  
+  img[loading="lazy"] {
+    opacity: 0;
+  }
+  
+  img[loading="lazy"].loaded {
+    opacity: 1;
   }
 }
 
