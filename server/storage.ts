@@ -47,7 +47,7 @@ export class MemStorage implements IStorage {
         description: "Fragrant basmati rice layered with tender lamb and traditional spices",
         price: "14.95",
         category: "mains",
-        image: "https://images.unsplash.com/photo-1563379091068-d4a49fa7d45f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+        image: "https://images.unsplash.com/photo-1563379091068-e82c312788cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
         spiceLevel: 3,
         isVegetarian: false,
         isPopular: true
@@ -57,7 +57,7 @@ export class MemStorage implements IStorage {
         description: "Fresh seasonal vegetables cooked in authentic Indian spices and herbs",
         price: "9.95",
         category: "mains",
-        image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+        image: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
         spiceLevel: 2,
         isVegetarian: true,
         isVegan: true,
@@ -156,7 +156,8 @@ export class MemStorage implements IStorage {
       ...insertReservation, 
       id,
       status: "pending",
-      createdAt: new Date()
+      createdAt: new Date(),
+      comments: insertReservation.comments || null
     };
     this.reservations.set(id, reservation);
     return reservation;

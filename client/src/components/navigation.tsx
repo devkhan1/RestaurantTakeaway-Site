@@ -27,20 +27,23 @@ export default function Navigation() {
     <header className="bg-burgundy text-cream shadow-lg sticky top-0 z-50">
       <div className="container mx-auto px-4">
         {/* Top Bar */}
-        <div className="flex justify-between items-center py-2 text-sm border-b border-gold/30">
-          <div className="flex items-center space-x-6">
-            <span className="flex items-center">
+        <div className="flex justify-between items-center py-3 text-sm border-b border-gold/30">
+          <div className="hidden md:flex items-center space-x-6">
+            <span className="flex items-center text-gold">
               <Phone className="w-4 h-4 mr-2" />
               01302 788882
             </span>
-            <span className="flex items-center">
+            <span className="flex items-center text-cream">
               <MapPin className="w-4 h-4 mr-2" />
               Baldwin Avenue, Doncaster DN5 9BG
             </span>
           </div>
-          <div className="flex items-center space-x-4">
-            <span className="bg-gold text-burgundy px-3 py-1 rounded-full font-semibold text-xs">
-              10% DISCOUNT ON COLLECTION
+          <div className="flex items-center space-x-2 md:space-x-4">
+            <span className="bg-gold text-burgundy px-3 py-1 rounded-full font-bold text-xs animate-pulse">
+              10% OFF COLLECTION
+            </span>
+            <span className="bg-green-600 text-white px-3 py-1 rounded-full font-bold text-xs">
+              B.Y.O ALCOHOL
             </span>
           </div>
         </div>
