@@ -44,44 +44,7 @@ export default function Home() {
       <ReservationSection />
       <GallerySection />
       
-      {/* Mobile Apps Section */}
-      <section className="py-20 bg-gradient-to-r from-gold to-amber-400">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl lg:text-5xl font-playfair font-bold text-burgundy mb-6">
-            Download Our <span className="text-white">Apps!</span>
-          </h2>
-          <p className="text-xl text-burgundy mb-8 max-w-2xl mx-auto">
-            Order directly from your phone for the fastest service and exclusive app-only offers
-          </p>
-          
-          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <a 
-              href="https://apps.apple.com/no/app/naaz-doncaster/id1586115828?l=nb" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="transform hover:scale-105 transition duration-300"
-            >
-              <img 
-                src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" 
-                alt="Download on App Store" 
-                className="h-14"
-              />
-            </a>
-            <a 
-              href="https://play.google.com/store/apps/details?id=com.smartcoder.naaz" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="transform hover:scale-105 transition duration-300"
-            >
-              <img 
-                src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" 
-                alt="Get it on Google Play" 
-                className="h-14"
-              />
-            </a>
-          </div>
-        </div>
-      </section>
+
 
       {/* Customer Reviews Section */}
       <section className="py-12 md:py-20 bg-white">
@@ -151,12 +114,6 @@ export default function Home() {
               <div className="font-semibold text-burgundy mb-2 cursor-default">Priya Kumar</div>
               <div className="text-sm text-burgundy bg-red-100 px-3 py-1 rounded-full inline-block cursor-default">✓ Verified Website Review</div>
             </div>
-          </div>
-          
-          <div className="text-center mt-12">
-            <Button className="bg-gradient-to-r from-burgundy to-red-800 text-white px-10 py-5 text-lg font-bold rounded-xl border-2 border-gold hover:from-red-800 hover:to-burgundy hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-              Read More Reviews
-            </Button>
           </div>
         </div>
       </section>
