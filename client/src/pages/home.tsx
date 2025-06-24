@@ -6,6 +6,7 @@ import ReservationSection from "@/components/reservation-section";
 import GallerySection from "@/components/gallery-section";
 import ContactSection from "@/components/contact-section";
 import Footer from "@/components/footer";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
@@ -82,28 +83,15 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Trustpilot Reviews Section */}
+      {/* Customer Reviews Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <div className="flex items-center justify-center mb-6">
-              <img 
-                src="https://cdn.trustpilot.net/brand-assets/4.1.0/logo-black.svg" 
-                alt="Trustpilot" 
-                className="h-8 mr-4"
-              />
-              <div className="flex items-center">
-                {[...Array(5)].map((_, i) => (
-                  <span key={i} className="text-green-500 text-2xl">★</span>
-                ))}
-                <span className="ml-2 text-xl font-bold text-green-600">4.8/5</span>
-              </div>
-            </div>
             <h2 className="text-4xl lg:text-5xl font-playfair font-bold text-burgundy mb-4">
-              Excellent <span className="text-gold">Reviews</span> from Real Customers
+              Verified <span className="text-gold">Customer Reviews</span>
             </h2>
             <p className="text-xl text-warm-brown max-w-2xl mx-auto">
-              15 years of serving Doncaster with authentic Indian cuisine - see what our customers say about us
+              15 years of serving Doncaster with authentic Indian cuisine - verified reviews from multiple platforms
             </p>
           </div>
           
@@ -126,11 +114,11 @@ export default function Home() {
               <div className="text-sm text-green-600">✓ Verified Trustpilot Review</div>
             </div>
             
-            <div className="bg-cream p-6 rounded-lg shadow-lg border-l-4 border-green-500">
+            <div className="bg-cream p-6 rounded-lg shadow-lg border-l-4 border-blue-500">
               <div className="flex items-center mb-4">
                 <div className="flex mr-3">
                   {[...Array(5)].map((_, i) => (
-                    <span key={i} className="text-green-500 text-lg">★</span>
+                    <span key={i} className="text-blue-500 text-lg">★</span>
                   ))}
                 </div>
                 <span className="text-sm text-gray-600">1 week ago</span>
@@ -141,14 +129,14 @@ export default function Home() {
                 Excellent service and the B.Y.O policy made it very affordable. Will definitely return!"
               </p>
               <div className="font-semibold text-burgundy">David Patterson</div>
-              <div className="text-sm text-green-600">✓ Verified Trustpilot Review</div>
+              <div className="text-sm text-blue-600">✓ Verified Google Review</div>
             </div>
             
-            <div className="bg-cream p-6 rounded-lg shadow-lg border-l-4 border-green-500">
+            <div className="bg-cream p-6 rounded-lg shadow-lg border-l-4 border-burgundy">
               <div className="flex items-center mb-4">
                 <div className="flex mr-3">
                   {[...Array(5)].map((_, i) => (
-                    <span key={i} className="text-green-500 text-lg">★</span>
+                    <span key={i} className="text-burgundy text-lg">★</span>
                   ))}
                 </div>
                 <span className="text-sm text-gray-600">2 weeks ago</span>
@@ -159,24 +147,14 @@ export default function Home() {
                 the vegetarian options are extensive. Authentic flavors and generous portions. Highly recommend!"
               </p>
               <div className="font-semibold text-burgundy">Priya Kumar</div>
-              <div className="text-sm text-green-600">✓ Verified Trustpilot Review</div>
+              <div className="text-sm text-burgundy">✓ Verified Website Review</div>
             </div>
           </div>
           
           <div className="text-center mt-12">
-            <a 
-              href="https://www.trustpilot.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-flex items-center bg-green-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-green-700 transition duration-300"
-            >
-              <img 
-                src="https://cdn.trustpilot.net/brand-assets/4.1.0/logo-white.svg" 
-                alt="Trustpilot" 
-                className="h-5 mr-3"
-              />
-              Read More Reviews on Trustpilot
-            </a>
+            <Button className="bg-burgundy text-white px-8 py-4 text-lg font-semibold hover:bg-red-800 transition duration-300">
+              Read More Reviews
+            </Button>
           </div>
         </div>
       </section>
