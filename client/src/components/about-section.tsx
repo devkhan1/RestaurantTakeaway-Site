@@ -14,44 +14,44 @@ export default function AboutSection() {
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 mb-16">
-          <div className="text-center p-8 bg-gradient-to-br from-cream to-white rounded-xl shadow-xl border-2 border-gold/20 hover:shadow-2xl hover:scale-105 transition-all duration-300">
-            <div className="w-20 h-20 bg-gradient-to-br from-gold to-amber-400 text-burgundy rounded-full flex items-center justify-center mx-auto mb-6 text-3xl shadow-lg">
+          <div className="text-center p-8 bg-gradient-to-br from-cream to-white rounded-xl shadow-xl border-2 border-gold/20 hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-default">
+            <div className="w-20 h-20 bg-gradient-to-br from-gold to-amber-400 text-burgundy rounded-full flex items-center justify-center mx-auto mb-6 text-3xl shadow-lg cursor-default">
               🏢
             </div>
-            <h3 className="text-2xl font-bold text-burgundy mb-4 border-b-2 border-gold/30 pb-2">Spacious Venue</h3>
-            <p className="text-warm-brown leading-relaxed">
+            <h3 className="text-2xl font-bold text-burgundy mb-4 border-b-2 border-gold/30 pb-2 cursor-default">Spacious Venue</h3>
+            <p className="text-warm-brown leading-relaxed cursor-default">
               Our 2-story restaurant comfortably accommodates families and large groups with 
               private dining areas available for special events and celebrations.
             </p>
           </div>
           
-          <div className="text-center p-8 bg-gradient-to-br from-cream to-white rounded-xl shadow-xl border-2 border-gold/20 hover:shadow-2xl hover:scale-105 transition-all duration-300">
-            <div className="w-20 h-20 bg-gradient-to-br from-gold to-amber-400 text-burgundy rounded-full flex items-center justify-center mx-auto mb-6 text-3xl shadow-lg">
+          <div className="text-center p-8 bg-gradient-to-br from-cream to-white rounded-xl shadow-xl border-2 border-gold/20 hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-default">
+            <div className="w-20 h-20 bg-gradient-to-br from-gold to-amber-400 text-burgundy rounded-full flex items-center justify-center mx-auto mb-6 text-3xl shadow-lg cursor-default">
               🚗
             </div>
-            <h3 className="text-2xl font-bold text-burgundy mb-4 border-b-2 border-gold/30 pb-2">Convenient Location</h3>
-            <p className="text-warm-brown leading-relaxed">
+            <h3 className="text-2xl font-bold text-burgundy mb-4 border-b-2 border-gold/30 pb-2 cursor-default">Convenient Location</h3>
+            <p className="text-warm-brown leading-relaxed cursor-default">
               Located on York Road with a large car park for easy access. 
               Perfect location in Doncaster with excellent transport links.
             </p>
           </div>
           
-          <div className="text-center p-8 bg-gradient-to-br from-cream to-white rounded-xl shadow-xl border-2 border-gold/20 hover:shadow-2xl hover:scale-105 transition-all duration-300">
-            <div className="w-20 h-20 bg-gradient-to-br from-gold to-amber-400 text-burgundy rounded-full flex items-center justify-center mx-auto mb-6 text-3xl shadow-lg">
+          <div className="text-center p-8 bg-gradient-to-br from-cream to-white rounded-xl shadow-xl border-2 border-gold/20 hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-default">
+            <div className="w-20 h-20 bg-gradient-to-br from-gold to-amber-400 text-burgundy rounded-full flex items-center justify-center mx-auto mb-6 text-3xl shadow-lg cursor-default">
               ♿
             </div>
-            <h3 className="text-2xl font-bold text-burgundy mb-4 border-b-2 border-gold/30 pb-2">Accessibility</h3>
-            <p className="text-warm-brown leading-relaxed">
+            <h3 className="text-2xl font-bold text-burgundy mb-4 border-b-2 border-gold/30 pb-2 cursor-default">Accessibility</h3>
+            <p className="text-warm-brown leading-relaxed cursor-default">
               Fully accessible venue with facilities for all guests. 
               We welcome everyone to enjoy our authentic Indian dining experience.
             </p>
           </div>
         </div>
 
-        <div className="bg-gradient-to-r from-burgundy via-red-800 to-burgundy text-cream p-10 rounded-xl shadow-2xl text-center border-4 border-gold/30">
-          <div className="bg-gold/10 rounded-lg p-6 mb-6 border border-gold/20">
-            <h3 className="text-3xl font-bold mb-4 text-gold">Download Our Orders Directly From Your Phone</h3>
-            <p className="text-xl text-cream/90 leading-relaxed">
+        <div className="bg-gradient-to-r from-burgundy via-red-800 to-burgundy text-cream p-10 rounded-xl shadow-2xl text-center border-4 border-gold/30 cursor-default">
+          <div className="bg-gold/10 rounded-lg p-6 mb-6 border border-gold/20 cursor-default">
+            <h3 className="text-3xl font-bold mb-4 text-gold cursor-default">Download Our Orders Directly From Your Phone</h3>
+            <p className="text-xl text-cream/90 leading-relaxed cursor-default">
               Quick and convenient ordering - Call us directly for takeaway and delivery
             </p>
           </div>
