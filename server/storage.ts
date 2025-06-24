@@ -79,7 +79,7 @@ export class MemStorage implements IStorage {
         description: "Fragrant basmati rice layered with tender lamb and traditional spices",
         price: "15.95",
         category: "mains",
-        image: "https://images.unsplash.com/photo-1563379091068-d4a49fa7d45f?w=600&h=300&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=600&h=300&auto=format&fit=crop",
         spiceLevel: 3,
         isVegetarian: false,
         isPopular: true
