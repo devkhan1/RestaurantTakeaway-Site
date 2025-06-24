@@ -22,7 +22,7 @@ export default function Home() {
               🎄 Special Christmas Offers 🎄
             </h3>
           </div>
-          <div className="grid md:grid-cols-3 gap-4">
+          <div className="grid mobile-stack md:grid-cols-3 responsive-gap">
             <div className="bg-white/20 backdrop-blur-sm p-4 rounded-lg text-center">
               <h4 className="font-bold text-lg mb-2">Christmas Day Lunch</h4>
               <p className="text-sm">Book Now to Avoid Disappointment!</p>
