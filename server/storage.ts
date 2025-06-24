@@ -167,7 +167,7 @@ export class MemStorage implements IStorage {
         description: "Perfectly spiced chicken layered with saffron rice and aromatic herbs",
         price: "13.95",
         category: "mains",
-        image: "https://images.unsplash.com/photo-1631452180539-96aca7d48617?w=600&h=300&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1505253758473-96b7015fcd40?w=600&h=300&auto=format&fit=crop",
         spiceLevel: 3,
         isVegetarian: false,
         isPopular: true
