@@ -48,7 +48,7 @@ export class MemStorage implements IStorage {
         description: "Deep-fried onion fritters with Indian spices and herbs",
         price: "4.95",
         category: "starters",
-        image: "https://images.unsplash.com/photo-1626132647523-66e7ad32ac95?w=600&h=300&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=600&h=300&auto=format&fit=crop",
         spiceLevel: 2,
         isVegetarian: true,
         isVegan: true,
