@@ -1,18 +1,29 @@
 import { useState } from "react";
-import { Link } from "wouter";
+import { Link, useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, Phone, MapPin } from "lucide-react";
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
+  const [location] = useLocation();
 
   const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-      setIsOpen(false);
+    setIsOpen(false);
+    
+    // If we're not on the home page, navigate to home first
+    if (location !== '/') {
+      window.location.href = `/#${sectionId}`;
+      return;
     }
+    
+    // Small delay to ensure page is loaded
+    setTimeout(() => {
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }, 100);
   };
 
   const navItems = [
@@ -65,7 +76,7 @@ export default function Navigation() {
                 <Link
                   key={item.id}
                   href={item.href!}
-                  className="hover:text-gold transition duration-300"
+                  className="hover:text-gold transition duration-300 cursor-pointer"
                 >
                   {item.label}
                 </Link>
@@ -73,7 +84,7 @@ export default function Navigation() {
                 <button
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
-                  className="hover:text-gold transition duration-300"
+                  className="hover:text-gold transition duration-300 cursor-pointer"
                 >
                   {item.label}
                 </button>
@@ -111,7 +122,7 @@ export default function Navigation() {
                     <Link
                       key={item.id}
                       href={item.href!}
-                      className="text-left py-2 hover:text-gold transition duration-300"
+                      className="text-left py-2 hover:text-gold transition duration-300 cursor-pointer"
                       onClick={() => setIsOpen(false)}
                     >
                       {item.label}
@@ -120,7 +131,7 @@ export default function Navigation() {
                     <button
                       key={item.id}
                       onClick={() => scrollToSection(item.id)}
-                      className="text-left py-2 hover:text-gold transition duration-300"
+                      className="text-left py-2 hover:text-gold transition duration-300 cursor-pointer"
                     >
                       {item.label}
                     </button>
