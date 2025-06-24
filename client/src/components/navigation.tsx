@@ -25,7 +25,7 @@ export default function Navigation() {
   ];
 
   return (
-    <header className="bg-burgundy text-cream shadow-lg sticky top-0 z-50 opacity-100">
+    <header className="bg-burgundy text-cream shadow-lg sticky top-0 z-50 header-solid">
       <div className="container mx-auto px-4">
         {/* Top Bar */}
         <div className="flex justify-between items-center py-3 text-sm border-b border-gold/30">
@@ -52,8 +52,10 @@ export default function Navigation() {
         {/* Main Navigation */}
         <nav className="flex justify-between items-center py-4">
           <div className="flex items-center">
-            <h1 className="text-3xl font-playfair font-bold text-gold">Naaz</h1>
-            <span className="ml-2 text-sm">Restaurant & Takeaway</span>
+            <Link href="/" className="flex items-center">
+              <h1 className="text-3xl font-playfair font-bold text-gold">Naaz</h1>
+              <span className="ml-2 text-sm">Restaurant & Takeaway</span>
+            </Link>
           </div>
           
           {/* Desktop Navigation */}
@@ -87,10 +89,11 @@ export default function Navigation() {
               TABLE RESERVATION
             </Button>
             <Button
+              asChild
               variant="outline"
               className="border-gold text-gold hover:bg-gold hover:text-burgundy font-semibold"
             >
-              ORDER NOW
+              <a href="tel:01302788882">ORDER NOW</a>
             </Button>
           </div>
           
