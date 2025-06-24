@@ -14,14 +14,27 @@ export default function Home() {
       <HeroSection />
       
       {/* Special Offers Banner */}
-      <section className="bg-gradient-to-r from-gold to-amber-400 py-6">
-        <div className="container mx-auto px-4 text-center">
-          <h3 className="text-2xl font-playfair font-bold text-burgundy mb-2">
-            Special Christmas Offer
-          </h3>
-          <p className="text-burgundy text-lg">
-            Christmas Day Lunch Available - Book Now to Avoid Disappointment!
-          </p>
+      <section className="bg-gradient-to-r from-red-600 via-green-600 to-red-600 py-8 text-white">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-6">
+            <h3 className="text-3xl font-playfair font-bold mb-4 animate-pulse">
+              🎄 Special Christmas Offers 🎄
+            </h3>
+          </div>
+          <div className="grid md:grid-cols-3 gap-4">
+            <div className="bg-white/20 backdrop-blur-sm p-4 rounded-lg text-center">
+              <h4 className="font-bold text-lg mb-2">Christmas Day Lunch</h4>
+              <p className="text-sm">Book Now to Avoid Disappointment!</p>
+            </div>
+            <div className="bg-white/20 backdrop-blur-sm p-4 rounded-lg text-center">
+              <h4 className="font-bold text-lg mb-2">10% Off Collection</h4>
+              <p className="text-sm">Save on all takeaway orders</p>
+            </div>
+            <div className="bg-white/20 backdrop-blur-sm p-4 rounded-lg text-center">
+              <h4 className="font-bold text-lg mb-2">B.Y.O Alcohol</h4>
+              <p className="text-sm">Bring your own drinks welcome!</p>
+            </div>
+          </div>
         </div>
       </section>
 

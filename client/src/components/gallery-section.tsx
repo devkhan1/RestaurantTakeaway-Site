@@ -2,27 +2,48 @@ export default function GallerySection() {
   const galleryImages = [
     {
       src: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
-      alt: "Restaurant interior with elegant table settings"
-    },
-    {
-      src: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
-      alt: "Traditional Indian spices arranged in containers"
-    },
-    {
-      src: "https://images.unsplash.com/photo-1577106263724-2c8e03bfe9cf?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
-      alt: "Chef cooking in tandoor oven"
-    },
-    {
-      src: "https://images.unsplash.com/photo-1601050690597-df0568f70950?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
-      alt: "Variety of Indian bread including naan and roti"
+      alt: "Naaz Restaurant - Spacious 2-story dining area",
+      title: "Main Dining Area"
     },
     {
       src: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
-      alt: "Elegant dining area with warm lighting"
+      alt: "Family-friendly dining with large tables",
+      title: "Family Dining Space"
+    },
+    {
+      src: "https://images.unsplash.com/photo-1577106263724-2c8e03bfe9cf?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      alt: "Our expert chef cooking in the traditional tandoor",
+      title: "Tandoor Kitchen"
+    },
+    {
+      src: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      alt: "Fresh spices and ingredients used daily",
+      title: "Fresh Spices & Ingredients"
+    },
+    {
+      src: "https://images.unsplash.com/photo-1601050690597-df0568f70950?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      alt: "Freshly baked naan and Indian breads",
+      title: "Fresh Baked Breads"
     },
     {
       src: "https://images.unsplash.com/photo-1505253758473-96b7015fcd40?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
-      alt: "Traditional Indian thali with multiple dishes"
+      alt: "Complete thali meals perfect for families",
+      title: "Traditional Thali Meals"
+    },
+    {
+      src: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      alt: "Signature curry dishes",
+      title: "Signature Curries"
+    },
+    {
+      src: "https://images.unsplash.com/photo-1563379091068-d4a49fa7d45f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      alt: "Aromatic biryani dishes",
+      title: "Aromatic Biryanis"
+    },
+    {
+      src: "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      alt: "Tandoori specialties grilled to perfection",
+      title: "Tandoori Specialties"
     }
   ];
 
@@ -40,13 +61,41 @@ export default function GallerySection() {
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {galleryImages.map((image, index) => (
-            <img 
-              key={index}
-              src={image.src} 
-              alt={image.alt} 
-              className="rounded-lg shadow-lg w-full h-64 object-cover transform hover:scale-105 transition duration-300 cursor-pointer" 
-            />
+            <div key={index} className="relative group">
+              <img 
+                src={image.src} 
+                alt={image.alt} 
+                className="rounded-lg shadow-lg w-full h-64 object-cover transform group-hover:scale-105 transition duration-300 cursor-pointer" 
+              />
+              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg flex items-center justify-center">
+                <h3 className="text-white font-playfair text-lg font-bold text-center px-4">
+                  {image.title}
+                </h3>
+              </div>
+            </div>
           ))}
+        </div>
+        
+        <div className="text-center mt-16">
+          <div className="bg-white p-8 rounded-xl shadow-lg max-w-4xl mx-auto">
+            <h3 className="text-2xl font-playfair font-bold text-burgundy mb-6">
+              Experience Naaz Restaurant
+            </h3>
+            <div className="grid md:grid-cols-3 gap-6 text-sm">
+              <div className="text-center">
+                <h4 className="font-bold text-gold mb-2">🏗️ Spacious Venue</h4>
+                <p className="text-warm-brown">2-story restaurant with ample seating for large groups and family celebrations</p>
+              </div>
+              <div className="text-center">
+                <h4 className="font-bold text-gold mb-2">🚗 Convenient Location</h4>
+                <p className="text-warm-brown">Located on main York Road with large car park and easy access to amenities</p>
+              </div>
+              <div className="text-center">
+                <h4 className="font-bold text-gold mb-2">♿ Accessible</h4>
+                <p className="text-warm-brown">Wheelchair accessible with family-friendly facilities and professional service</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
