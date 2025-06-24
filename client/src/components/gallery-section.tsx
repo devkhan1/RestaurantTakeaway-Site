@@ -36,7 +36,7 @@ export default function GallerySection() {
       title: "Signature Curries"
     },
     {
-      src: "https://images.unsplash.com/photo-1563379091068-d4a49fa7d45f?w=600&h=400&auto=format&fit=crop",
+      src: "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=600&h=400&auto=format&fit=crop",
       alt: "Aromatic biryani dishes",
       title: "Aromatic Biryanis"
     },
