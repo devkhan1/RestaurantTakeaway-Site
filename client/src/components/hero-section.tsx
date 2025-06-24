@@ -30,19 +30,20 @@ export default function HeroSection() {
             we&apos;re a spacious 2-story restaurant perfect for families, large groups, and special celebrations.
           </p>
           </div>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mt-8">
           <Button
-            onClick={() => scrollToSection("menu")}
-            className="bg-gold text-burgundy hover:bg-light-gold font-semibold px-8 py-4 text-lg transform hover:scale-105 transition duration-300"
+            asChild
+            className="bg-gradient-to-r from-gold to-amber-400 text-burgundy hover:from-amber-400 hover:to-gold font-bold px-10 py-5 text-xl rounded-full shadow-2xl transform hover:scale-110 transition-all duration-300 border-2 border-burgundy"
           >
-            View Menu
+            <a href="/menu">
+              📖 View Full Menu
+            </a>
           </Button>
           <Button
             onClick={() => scrollToSection("reservation")}
-            variant="outline"
-            className="border-2 border-gold text-gold hover:bg-gold hover:text-burgundy font-semibold px-8 py-4 text-lg transform hover:scale-105 transition duration-300"
+            className="bg-gradient-to-r from-burgundy to-red-800 text-white hover:from-red-800 hover:to-burgundy font-bold px-10 py-5 text-xl rounded-full shadow-2xl transform hover:scale-110 transition-all duration-300 border-2 border-gold"
           >
-            Book Table
+            🍽️ Book Table Now
           </Button>
         </div>
       </div>

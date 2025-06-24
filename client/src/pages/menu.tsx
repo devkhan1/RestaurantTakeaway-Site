@@ -145,8 +145,11 @@ export default function MenuPage() {
                   
                   <div className="flex justify-between items-center">
                     <span className="text-2xl font-bold text-gold">£{item.price}</span>
-                    <Button className="bg-burgundy text-cream hover:bg-opacity-90 font-semibold">
-                      Add to Order
+                    <Button 
+                      asChild
+                      className="bg-burgundy text-cream hover:bg-opacity-90 font-semibold"
+                    >
+                      <a href="tel:+441302788882">Order Now</a>
                     </Button>
                   </div>
                 </CardContent>
@@ -189,7 +192,7 @@ export default function MenuPage() {
               asChild
               className="bg-gold text-burgundy hover:bg-light-gold font-semibold px-8 py-4 text-lg mr-4"
             >
-              <a href="tel:01302788882">Call 01302 788882</a>
+              <a href="tel:+441302788882">📞 Call 01302 788882</a>
             </Button>
             <Button 
               asChild

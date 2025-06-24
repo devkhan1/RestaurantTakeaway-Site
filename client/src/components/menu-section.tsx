@@ -94,8 +94,11 @@ export default function MenuSection() {
                 )}
                 <div className="flex justify-between items-center">
                   <span className="text-2xl font-bold text-gold">£{item.price}</span>
-                  <Button className="bg-gold text-burgundy hover:bg-light-gold font-semibold">
-                    Order Now
+                  <Button 
+                    asChild
+                    className="bg-gold text-burgundy hover:bg-light-gold font-semibold"
+                  >
+                    <a href="tel:+441302788882">Order Now</a>
                   </Button>
                 </div>
               </CardContent>
