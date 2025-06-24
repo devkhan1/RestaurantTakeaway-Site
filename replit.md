@@ -120,15 +120,18 @@ This is a full-stack restaurant website built for Naaz Restaurant & Takeaway, an
 ```
 Recent Updates:
 - June 24, 2025: Comprehensive website redesign and enhancement
+  - Fixed header transparency issue for better readability while scrolling
+  - Updated all menu item images with authentic Indian food photos
   - Improved header design with better visibility and B.Y.O alcohol highlighting
   - Enhanced hero section with better text readability and restaurant details
   - Updated Christmas/seasonal offers banner with festive design
   - Expanded about section highlighting 2-story venue, car park, accessibility
-  - Complete menu overhaul with better categorization and images
+  - Complete menu overhaul with better categorization and proper images
   - Added dedicated full menu page with filtering capabilities
   - Enhanced gallery with restaurant-specific images and facility highlights
   - Improved contact section emphasizing event hosting capabilities
   - Added navigation between home and menu pages
+  - Fixed LSP errors and improved code stability
   - Better mobile responsiveness and visual hierarchy
 ```
 

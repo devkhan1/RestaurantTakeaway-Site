@@ -192,16 +192,11 @@ export default function MenuPage() {
               <a href="tel:01302788882">Call 01302 788882</a>
             </Button>
             <Button 
+              asChild
               variant="outline"
               className="border-2 border-gold text-gold hover:bg-gold hover:text-burgundy font-semibold px-8 py-4 text-lg"
-              onClick={() => {
-                const element = document.getElementById("reservation");
-                if (element) {
-                  element.scrollIntoView({ behavior: "smooth" });
-                }
-              }}
             >
-              Book Table
+              <a href="/">Book Table</a>
             </Button>
           </div>
         </div>
