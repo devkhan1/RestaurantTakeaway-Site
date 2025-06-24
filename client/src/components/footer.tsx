@@ -17,11 +17,11 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-burgundy text-cream py-12">
+    <footer className="bg-burgundy text-cream py-8 md:py-12">
       <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-4 gap-8">
-          <div className="bg-burgundy/20 p-6 rounded-lg border border-gold/30">
-            <h3 className="text-xl font-bold text-gold mb-4 border-b border-gold/50 pb-2">Opening Hours</h3>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+          <div className="bg-burgundy/20 p-4 md:p-6 rounded-lg border border-gold/30">
+            <h3 className="text-lg md:text-xl font-bold text-gold mb-3 md:mb-4 border-b border-gold/50 pb-2">Opening Hours</h3>
             <div className="space-y-3 text-cream">
               <div className="bg-burgundy/30 p-2 rounded border border-gold/20 cursor-default">
                 <p className="cursor-default">Monday - Thursday: 5:00 PM - 11:00 PM</p>
@@ -35,8 +35,8 @@ export default function Footer() {
             </div>
           </div>
           
-          <div className="bg-burgundy/20 p-6 rounded-lg border border-gold/30">
-            <h3 className="text-xl font-bold text-gold mb-4 border-b border-gold/50 pb-2">Quick Links</h3>
+          <div className="bg-burgundy/20 p-4 md:p-6 rounded-lg border border-gold/30">
+            <h3 className="text-lg md:text-xl font-bold text-gold mb-3 md:mb-4 border-b border-gold/50 pb-2">Quick Links</h3>
             <ul className="space-y-3">
               <li><a href="/" className="text-cream hover:text-gold transition duration-300 block bg-burgundy/30 p-2 rounded border border-gold/20 hover:bg-gold/20 hover:border-gold">Home</a></li>
               <li><a href="/menu" className="text-cream hover:text-gold transition duration-300 block bg-burgundy/30 p-2 rounded border border-gold/20 hover:bg-gold/20 hover:border-gold">Menu</a></li>
@@ -45,8 +45,8 @@ export default function Footer() {
             </ul>
           </div>
           
-          <div className="bg-burgundy/20 p-6 rounded-lg border border-gold/30">
-            <h3 className="text-xl font-bold text-gold mb-4 border-b border-gold/50 pb-2">Contact Info</h3>
+          <div className="bg-burgundy/20 p-4 md:p-6 rounded-lg border border-gold/30">
+            <h3 className="text-lg md:text-xl font-bold text-gold mb-3 md:mb-4 border-b border-gold/50 pb-2">Contact Info</h3>
             <div className="space-y-3 text-cream">
               <div className="bg-burgundy/30 p-2 rounded border border-gold/20 cursor-default">
                 <p className="cursor-default">📞 01302 788882</p>
@@ -60,9 +60,9 @@ export default function Footer() {
             </div>
           </div>
           
-          <div className="bg-burgundy/20 p-6 rounded-lg border border-gold/30">
-            <div className="bg-gold/20 p-4 rounded-lg border border-gold mb-4 cursor-default">
-              <h3 className="text-xl font-bold text-gold border-b border-gold/50 pb-2 mb-3 cursor-default">Naaz Restaurant</h3>
+          <div className="bg-burgundy/20 p-4 md:p-6 rounded-lg border border-gold/30">
+            <div className="bg-gold/20 p-3 md:p-4 rounded-lg border border-gold mb-4 cursor-default">
+              <h3 className="text-lg md:text-xl font-bold text-gold border-b border-gold/50 pb-2 mb-3 cursor-default">Naaz Restaurant</h3>
               <p className="text-cream mb-4 leading-relaxed cursor-default">
                 Authentic Indian cuisine served with passion for over 15 years in Doncaster.
               </p>
