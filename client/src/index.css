@@ -150,8 +150,9 @@
   }
   
   .header-fixed {
-    background: linear-gradient(135deg, hsl(var(--burgundy)) 0%, hsl(0, 84%, 20%) 100%) !important;
-    box-shadow: 0 4px 20px rgba(139, 0, 0, 0.8) !important;
+    background: rgba(139, 0, 0, 0.98) !important;
+    backdrop-filter: blur(20px) !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5) !important;
     border-bottom: 2px solid hsl(var(--gold)) !important;
   }
 }
