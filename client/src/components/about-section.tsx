@@ -48,84 +48,9 @@ export default function AboutSection() {
           </div>
         </div>
 
-        <div className="bg-gradient-to-r from-burgundy via-red-800 to-burgundy text-cream p-6 md:p-10 rounded-xl shadow-2xl text-center border-4 border-gold/30 cursor-default">
-          <div className="bg-gold/10 rounded-lg p-4 md:p-6 mb-6 border border-gold/20 cursor-default">
-            <h3 className="text-xl md:text-3xl font-bold mb-4 text-gold cursor-default">Order Directly From Your Phone</h3>
-            <p className="text-base md:text-xl text-cream/90 leading-relaxed cursor-default mb-4">
-              Quick and convenient ordering - Call us directly for takeaway and delivery
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <a 
-                href="tel:+441302788882"
-                className="bg-gradient-to-r from-gold to-amber-400 text-burgundy px-6 md:px-8 py-3 md:py-4 rounded-xl font-bold text-sm md:text-lg border-2 border-gold hover:from-amber-400 hover:to-gold hover:shadow-xl transition-all duration-300 transform hover:scale-105 inline-block w-full sm:w-auto text-center"
-              >
-                📞 Call: 01302 788882
-              </a>
-              <div className="bg-burgundy/30 rounded-lg px-4 py-2 border border-gold/30">
-                <p className="text-gold font-semibold text-sm">Available for Download Soon</p>
-                <p className="text-cream/80 text-xs">Mobile App Coming</p>
-              </div>
-            </div>
-          </div>
-        </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-center mt-16">
-          <div>
-            <h2 className="text-4xl lg:text-5xl font-playfair font-bold text-burgundy mb-6">
-              About <span className="text-gold">Naaz</span>
-            </h2>
-            <div className="text-lg leading-relaxed space-y-4">
-              <p>
-                We are proud to be serving the people of <strong>Doncaster</strong> for <strong>15 years</strong> from our spacious <strong>2-story restaurant</strong> on the main York Road. With ample parking and wheelchair accessibility, we welcome families, large groups, and special celebrations.
-              </p>
-              
-              <div className="bg-gradient-to-r from-gold/20 to-amber-100 p-6 rounded-lg border-l-4 border-gold">
-                <h4 className="font-bold text-burgundy mb-3">Our Facilities Include:</h4>
-                <ul className="grid md:grid-cols-2 gap-2 text-warm-brown">
-                  <li>✓ Large car park on York Road</li>
-                  <li>✓ Wheelchair accessible entrance</li>
-                  <li>✓ Family-friendly dining areas</li>
-                  <li>✓ Large tables for group bookings</li>
-                  <li>✓ Children's high chairs available</li>
-                  <li>✓ B.Y.O alcohol policy</li>
-                  <li>✓ Private party room upstairs</li>
-                  <li>✓ Professional waiting staff</li>
-                </ul>
-              </div>
-              
-              <p>
-                Located conveniently on the main York Road with shops, amenities, and transport links nearby. Our experienced team provides attentive service whether you're dining for two or celebrating with a large group.
-              </p>
-              
-              <div className="bg-cream p-6 rounded-lg border-l-4 border-gold mt-6">
-                <p className="font-semibold text-burgundy mb-4">
-                  "Food is to be enjoyed, we feel that it has to be the very best available. The preparation and the cooking of good food is our job, doing it well is our pleasure."
-                </p>
-                <p className="text-warm-brown">
-                  - <strong>Mr Ali</strong>, Executive Chef & Senior Executive Partner
-                </p>
-              </div>
-            </div>
-          </div>
-          
-          <div className="grid grid-cols-2 gap-4">
-            <img 
-              src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400" 
-              alt="Delicious Indian curry dishes" 
-              className="rounded-lg shadow-lg w-full h-48 object-cover" 
-            />
-            <img 
-              src="https://images.unsplash.com/photo-1577106263724-2c8e03bfe9cf?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400" 
-              alt="Chef preparing authentic Indian cuisine" 
-              className="rounded-lg shadow-lg w-full h-48 object-cover" 
-            />
-            <img 
-              src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400" 
-              alt="Elegant restaurant interior" 
-              className="rounded-lg shadow-lg w-full h-48 object-cover col-span-2" 
-            />
-          </div>
-        </div>
+
+
       </div>
     </section>
   );
