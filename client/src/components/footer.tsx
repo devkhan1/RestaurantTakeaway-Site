@@ -71,7 +71,9 @@ export default function Footer() {
             <ul className="space-y-2">
               <li className="flex items-center">
                 <span className="mr-2">📞</span>
-                01302 788882
+                <a href="tel:+441302788882" className="hover:text-gold transition duration-300">
+                  01302 788882
+                </a>
               </li>
               <li className="flex items-center">
                 <span className="mr-2">📍</span>

@@ -59,7 +59,9 @@ export default function ContactSection() {
                   <Phone className="text-gold text-xl mt-1" />
                   <div>
                     <h4 className="font-semibold text-burgundy">Phone</h4>
-                    <p className="text-warm-brown">01302 788882</p>
+                    <a href="tel:+441302788882" className="text-warm-brown hover:text-gold transition duration-300 font-semibold">
+                      01302 788882
+                    </a>
                   </div>
                 </div>
                 
@@ -110,7 +112,7 @@ export default function ContactSection() {
                 >
                   <a href="tel:01302788882">
                     <Phone className="w-4 h-4 mr-2" />
-                    Call Now
+                    Call 01302 788882
                   </a>
                 </Button>
                 <Button 

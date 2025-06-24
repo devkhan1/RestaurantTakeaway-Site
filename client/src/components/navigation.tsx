@@ -36,15 +36,15 @@ export default function Navigation() {
   ];
 
   return (
-    <header className="bg-burgundy text-cream shadow-lg sticky top-0 z-50 header-solid">
+    <header className="bg-burgundy text-cream shadow-lg sticky top-0 z-50 header-fixed">
       <div className="container mx-auto px-4">
         {/* Top Bar */}
         <div className="flex justify-between items-center py-3 text-sm border-b border-gold/30">
           <div className="hidden md:flex items-center space-x-6">
-            <span className="flex items-center text-gold">
+            <a href="tel:+441302788882" className="flex items-center text-gold hover:text-light-gold transition duration-300">
               <Phone className="w-4 h-4 mr-2" />
               01302 788882
-            </span>
+            </a>
             <span className="flex items-center text-cream">
               <MapPin className="w-4 h-4 mr-2" />
               Baldwin Avenue, Doncaster DN5 9BG
@@ -104,7 +104,7 @@ export default function Navigation() {
               variant="outline"
               className="border-gold text-gold hover:bg-gold hover:text-burgundy font-semibold"
             >
-              <a href="tel:01302788882">ORDER NOW</a>
+              <a href="tel:+441302788882">📞 ORDER NOW</a>
             </Button>
           </div>
           
