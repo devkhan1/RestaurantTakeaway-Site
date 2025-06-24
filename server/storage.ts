@@ -79,7 +79,7 @@ export class MemStorage implements IStorage {
         description: "Fragrant basmati rice layered with tender lamb and traditional spices",
         price: "15.95",
         category: "mains",
-        image: "https://images.unsplash.com/photo-1631452180519-8ec5e9b87a79?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+        image: "https://images.unsplash.com/photo-1563379091068-d4a49fa7d45f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
         spiceLevel: 3,
         isVegetarian: false,
         isPopular: true
@@ -89,7 +89,7 @@ export class MemStorage implements IStorage {
         description: "Fresh seasonal vegetables cooked in authentic Indian spices and herbs",
         price: "9.95",
         category: "mains",
-        image: "https://images.unsplash.com/photo-1574653785050-87038cc4f70b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+        image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
         spiceLevel: 2,
         isVegetarian: true,
         isVegan: true,
@@ -120,7 +120,7 @@ export class MemStorage implements IStorage {
         description: "Freshly baked bread with garlic, herbs and butter from our tandoor oven",
         price: "3.50",
         category: "bread",
-        image: "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+        image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
         spiceLevel: 1,
         isVegetarian: true,
         isPopular: true
@@ -161,6 +161,16 @@ export class MemStorage implements IStorage {
         category: "desserts",
         image: "https://images.unsplash.com/photo-1488900128323-21503983a07e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
         isVegetarian: true
+      },
+      {
+        name: "Aromatic Chicken Biryani",
+        description: "Perfectly spiced chicken layered with saffron rice and aromatic herbs",
+        price: "13.95",
+        category: "mains",
+        image: "https://images.unsplash.com/photo-1563379091068-d4a49fa7d45f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+        spiceLevel: 3,
+        isVegetarian: false,
+        isPopular: true
       }
     ];
 

@@ -36,7 +36,7 @@ export default function Navigation() {
   ];
 
   return (
-    <header className="text-cream shadow-lg sticky top-0 z-50" style={{ backgroundColor: 'rgba(139, 0, 0, 0.98)', backdropFilter: 'blur(20px)' }}>
+    <header className="text-white shadow-lg sticky top-0 z-50" style={{ backgroundColor: 'rgba(0, 0, 0, 0.98)', backdropFilter: 'blur(20px)' }}>
       <div className="container mx-auto px-4">
         {/* Top Bar */}
         <div className="flex justify-between items-center py-3 text-sm border-b border-gold/30">
@@ -45,7 +45,7 @@ export default function Navigation() {
               <Phone className="w-4 h-4 mr-2" />
               01302 788882
             </a>
-            <span className="flex items-center text-cream">
+            <span className="flex items-center text-white">
               <MapPin className="w-4 h-4 mr-2" />
               Baldwin Avenue, Doncaster DN5 9BG
             </span>
