@@ -43,18 +43,16 @@ export default function Home() {
       <MenuSection />
       <ReservationSection />
       <GallerySection />
-      
-
 
       {/* Customer Reviews Section */}
       <section className="py-12 md:py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12 md:mb-16">
-            <div className="bg-burgundy text-white inline-block px-6 md:px-8 py-3 md:py-4 rounded-lg shadow-lg mb-6 border-2 border-gold">
+            <div className="bg-blue-600 text-white inline-block px-6 md:px-8 py-3 md:py-4 rounded-lg shadow-lg mb-6 border-2 border-blue-800">
               <h2 className="text-2xl md:text-4xl lg:text-5xl font-playfair font-bold mb-2">
-                Verified <span className="text-gold">Customer Reviews</span>
+                Verified <span className="text-yellow-300">Customer Reviews</span>
               </h2>
-              <p className="text-sm md:text-xl text-cream">
+              <p className="text-sm md:text-xl text-blue-100">
                 15 years of serving Doncaster with authentic Indian cuisine - verified reviews from multiple platforms
               </p>
             </div>
