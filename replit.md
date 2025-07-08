@@ -1,8 +1,8 @@
-# Naaz Restaurant Website
+# Spice Garden Restaurant Demo Website
 
 ## Overview
 
-This is a full-stack restaurant website built for Naaz Restaurant & Takeaway, an Indian cuisine restaurant in Doncaster. The application features a modern React frontend with a Node.js/Express backend, showcasing the restaurant's menu, allowing online reservations, and providing essential business information.
+This is a full-stack restaurant demo website built as a presentation showcase for Indian cuisine restaurants. Originally developed for a real restaurant, all sensitive business details have been replaced with randomized demo data to create a safe presentation environment. The application features a modern React frontend with a Node.js/Express backend, showcasing menu systems, online reservations, and essential restaurant business functionality.
 
 ## System Architecture
 

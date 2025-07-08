@@ -53,7 +53,7 @@ export default function Home() {
                 Verified <span className="text-yellow-300">Customer Reviews</span>
               </h2>
               <p className="fluid-text-sm md:fluid-text-lg text-blue-100">
-                15 years of serving Doncaster with authentic Indian cuisine - verified reviews from multiple platforms
+                14 years of serving the community with authentic Indian cuisine - verified reviews from multiple platforms
               </p>
             </div>
           </div>

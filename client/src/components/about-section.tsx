@@ -5,10 +5,10 @@ export default function AboutSection() {
         <div className="text-center mb-8 md:mb-12 lg:mb-16">
           <div className="bg-gold text-burgundy inline-block responsive-px responsive-py rounded-lg shadow-lg mb-6 border-2 border-burgundy">
             <h2 className="fluid-text-3xl md:fluid-text-4xl font-playfair font-bold mb-2">
-              Experience <span className="text-red-800">Naaz Restaurant</span>
+              Experience <span className="text-red-800">Spice Garden</span>
             </h2>
             <p className="fluid-text-sm md:fluid-text-lg text-burgundy font-semibold">
-              15 years of authentic Indian cuisine in the heart of Doncaster
+              14 years of authentic Indian cuisine in the heart of the city
             </p>
           </div>
         </div>
@@ -31,8 +31,8 @@ export default function AboutSection() {
             </div>
             <h3 className="fluid-text-base md:fluid-text-lg font-bold text-burgundy mb-2 border-b-2 border-gold/30 pb-2 cursor-default">Convenient Location</h3>
             <p className="fluid-text-xs md:fluid-text-sm text-warm-brown leading-relaxed cursor-default">
-              Located on York Road with a large car park for easy access. 
-              Perfect location in Doncaster with excellent transport links.
+              Located on Main Street with convenient parking for easy access. 
+              Perfect location in the city center with excellent transport links.
             </p>
           </div>
           
