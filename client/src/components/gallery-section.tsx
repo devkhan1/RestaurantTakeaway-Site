@@ -79,7 +79,7 @@ export default function GallerySection() {
         <div className="text-center mt-16">
           <div className="bg-white p-8 rounded-xl shadow-lg max-w-4xl mx-auto">
             <h3 className="text-2xl font-playfair font-bold text-burgundy mb-6">
-              Experience Naaz Restaurant
+              Experience Spice Garden Restaurant
             </h3>
             <div className="grid md:grid-cols-3 gap-6 text-sm">
               <div className="text-center">
@@ -88,7 +88,7 @@ export default function GallerySection() {
               </div>
               <div className="text-center">
                 <h4 className="font-bold text-gold mb-2">🚗 Convenient Location</h4>
-                <p className="text-warm-brown">Located on main York Road with large car park and easy access to amenities</p>
+                <p className="text-warm-brown">Located on Main Street with convenient parking and easy access to amenities</p>
               </div>
               <div className="text-center">
                 <h4 className="font-bold text-gold mb-2">♿ Accessible</h4>

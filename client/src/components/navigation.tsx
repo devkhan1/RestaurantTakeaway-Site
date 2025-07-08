@@ -17,13 +17,21 @@ export default function Navigation() {
       return;
     }
     
-    // Small delay to ensure page is loaded
+    // Small delay to ensure page is loaded and close mobile menu
+    setIsOpen(false);
     setTimeout(() => {
       const element = document.getElementById(sectionId);
       if (element) {
-        element.scrollIntoView({ behavior: "smooth" });
+        const headerOffset = 80;
+        const elementPosition = element.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+        
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+        });
       }
-    }, 100);
+    }, 200);
   };
 
   const navItems = [
@@ -41,13 +49,13 @@ export default function Navigation() {
         {/* Top Bar */}
         <div className="flex justify-between items-center py-3 text-sm border-b border-gold/30">
           <div className="hidden md:flex items-center space-x-6">
-            <a href="tel:+441302788882" className="flex items-center text-gold hover:text-light-gold transition duration-300">
+            <a href="tel:+15555742301" className="flex items-center text-gold hover:text-light-gold transition duration-300">
               <Phone className="w-4 h-4 mr-2" />
-              01302 788882
+              555-SPICE-01
             </a>
             <span className="flex items-center text-white">
               <MapPin className="w-4 h-4 mr-2" />
-              Baldwin Avenue, Doncaster DN5 9BG
+              456 Main Street, Downtown ZIP 12345
             </span>
           </div>
           <div className="flex items-center space-x-2 md:space-x-4">
@@ -64,7 +72,7 @@ export default function Navigation() {
         <nav className="flex justify-between items-center py-4">
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
-              <h1 className="text-3xl font-playfair font-bold text-gold">Naaz</h1>
+              <h1 className="text-3xl font-playfair font-bold text-gold">Spice Garden</h1>
               <span className="ml-2 text-sm">Restaurant & Takeaway</span>
             </Link>
           </div>
@@ -103,7 +111,7 @@ export default function Navigation() {
               asChild
               className="bg-gold text-burgundy hover:bg-amber-400 font-bold border-2 border-burgundy px-4 py-2"
             >
-              <a href="tel:+441302788882">📞 ORDER NOW</a>
+              <a href="tel:+15555742301">📞 ORDER NOW</a>
             </Button>
           </div>
           

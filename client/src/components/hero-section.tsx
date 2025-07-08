@@ -20,13 +20,13 @@ export default function HeroSection() {
       <div className="relative container mx-auto px-4 text-center text-white">
         <div className="bg-black/40 p-8 rounded-2xl backdrop-blur-sm">
           <h2 className="text-5xl lg:text-7xl font-playfair font-bold mb-6 text-shadow">
-            Welcome to <span className="text-gold">Naaz</span>
+            Welcome to <span className="text-gold">Spice Garden</span>
           </h2>
           <h3 className="text-3xl lg:text-4xl font-playfair mb-6 text-gold">
             Authentic Indian Restaurant & Takeaway
           </h3>
           <p className="text-lg lg:text-xl mb-8 max-w-4xl mx-auto leading-relaxed">
-            Proudly serving Doncaster for 15 years with the finest Indian dishes. Located on York Road with ample parking, 
+            Proudly serving the community for 14 years with the finest Indian dishes. Located on Main Street with convenient parking, 
             we&apos;re a spacious 2-story restaurant perfect for families, large groups, and special celebrations.
           </p>
           </div>

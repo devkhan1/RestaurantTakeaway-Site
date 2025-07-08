@@ -24,13 +24,16 @@ export default function Footer() {
             <h3 className="fluid-text-base md:fluid-text-lg font-bold text-gold mb-3 md:mb-4 border-b border-gold/50 pb-2">Opening Hours</h3>
             <div className="space-y-3 text-cream">
               <div className="bg-burgundy/30 p-2 rounded border border-gold/20 cursor-default">
-                <p className="cursor-default">Monday - Thursday: 5:00 PM - 11:00 PM</p>
+                <p className="cursor-default">Monday: CLOSED</p>
               </div>
               <div className="bg-burgundy/30 p-2 rounded border border-gold/20 cursor-default">
-                <p className="cursor-default">Friday - Sunday: 5:00 PM - 11:30 PM</p>
+                <p className="cursor-default">Tuesday - Thursday: 5:30 PM - 10:00 PM</p>
+              </div>
+              <div className="bg-burgundy/30 p-2 rounded border border-gold/20 cursor-default">
+                <p className="cursor-default">Friday - Sunday: 5:30 PM - 10:30 PM</p>
               </div>
               <div className="bg-gold/20 p-2 rounded border border-gold cursor-default">
-                <p className="text-gold font-semibold cursor-default">Closed Tuesdays</p>
+                <p className="text-gold font-semibold cursor-default">Closed Mondays</p>
               </div>
             </div>
           </div>
@@ -49,22 +52,22 @@ export default function Footer() {
             <h3 className="fluid-text-base md:fluid-text-lg font-bold text-gold mb-3 md:mb-4 border-b border-gold/50 pb-2">Contact Info</h3>
             <div className="space-y-3 text-cream">
               <div className="bg-burgundy/30 p-2 rounded border border-gold/20 cursor-default">
-                <p className="cursor-default">📞 01302 788882</p>
+                <p className="cursor-default">📞 555-SPICE-01</p>
               </div>
               <div className="bg-burgundy/30 p-2 rounded border border-gold/20 cursor-default">
-                <p className="cursor-default">📍 Baldwin Avenue, Doncaster DN5 9BG</p>
+                <p className="cursor-default">📍 456 Main Street, Downtown ZIP 12345</p>
               </div>
               <div className="bg-burgundy/30 p-2 rounded border border-gold/20 cursor-default">
-                <p className="cursor-default">✉️ info@naazrestaurant.co.uk</p>
+                <p className="cursor-default">✉️ info@spicegarden.demo</p>
               </div>
             </div>
           </div>
           
           <div className="bg-burgundy/20 responsive-px responsive-py rounded-lg border border-gold/30">
             <div className="bg-gold/20 responsive-px responsive-py rounded-lg border border-gold mb-4 cursor-default">
-              <h3 className="fluid-text-base md:fluid-text-lg font-bold text-gold border-b border-gold/50 pb-2 mb-3 cursor-default">Naaz Restaurant</h3>
+              <h3 className="fluid-text-base md:fluid-text-lg font-bold text-gold border-b border-gold/50 pb-2 mb-3 cursor-default">Spice Garden Restaurant</h3>
               <p className="text-cream mb-4 leading-relaxed cursor-default">
-                Authentic Indian cuisine served with passion for over 15 years in Doncaster.
+                Authentic Indian cuisine served with passion for over 14 years in the city.
               </p>
             </div>
             <button 
@@ -77,7 +80,7 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-gold/30 mt-8 pt-8 text-center">
-          <p>&copy; 2020 – 2025 ®. Naaz Restaurant. All rights reserved.</p>
+          <p>&copy; 2020 – 2025 ®. Spice Garden Restaurant. All rights reserved.</p>
         </div>
       </div>
     </footer>
