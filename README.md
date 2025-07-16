@@ -5,7 +5,7 @@ A modern restaurant website template built with clean design, responsive layout,
 ---
 
 ## 🔗 Live Demo  
-[🌐 View Live Website](https://0901f5af-4db3-4cca-a0cc-ac2518d43c35-00-98rw6yyioixc.janeway.replit.dev/)
+[🌐 View Live Website]()
 
 ---
 
